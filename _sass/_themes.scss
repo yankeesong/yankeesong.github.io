@@ -42,6 +42,8 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --global-line-height: #{$line-height};
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -78,7 +80,7 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
+  --global-text-color: #{$grey-color-darker};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
