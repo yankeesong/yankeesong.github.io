@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Summer 2022]   Quantitative Research Intern at [IMC Trading](https://www.imc.com/us/).
+[Summer 2022] Quantitative Research Intern at [IMC Trading](https://www.imc.com/us/).

@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Summer 2023]   Applied Research Scientist Intern at [Tencent Lightspeed Studios](https://www.lightspeed-studios.com/). 
-
+[Summer 2023] Applied Research Scientist Intern at [Tencent Lightspeed Studios](https://www.lightspeed-studios.com/).
