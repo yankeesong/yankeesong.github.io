@@ -2,6 +2,29 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Custom ones
+.tight-grid {
+  margin: 0;
+}
+.tight-grid .col-6 {
+  padding: 0;
+}
+.tight-grid .col-4 {
+  padding: 0;
+}
+.tight-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+.tight-grid figure {
+  margin: 0;
+}
+
 // Typography
 
 p,
