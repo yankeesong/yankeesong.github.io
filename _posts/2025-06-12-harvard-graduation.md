@@ -47,7 +47,7 @@ PhD方阵是第一个入场，因此我们一直坐到9:30才等来典礼的正�
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/2025/graduation/certificate.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/posts/2025/graduation/cerenomy.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
