@@ -6,6 +6,9 @@
 .tight-grid {
   margin: 0;
 }
+.tight-grid .col-12 {
+  padding: 0;
+}
 .tight-grid .col-6 {
   padding: 0;
 }
@@ -23,6 +26,14 @@
 }
 .tight-grid figure {
   margin: 0;
+}
+
+.tall-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tall-grid .cell.tall {
+  grid-row: span 2;
 }
 
 // Typography

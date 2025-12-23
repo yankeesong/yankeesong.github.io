@@ -9,8 +9,6 @@ profile:
   image: yanke.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1 Oxford Street</p>
-    <p>Cambridge, MA, 02138</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,8 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final year PhD candicate in the [Department of Statistics](https://statistics.fas.harvard.edu/) at Harvard University, advised by Prof. [Pragya Sur](https://sites.harvard.edu/prs499/). I received my Bachelors degree in Applied and Computational Mathematics from [Caltech](https://www.caltech.edu/).
-
-My early research work focuses on high dimensional statistics, specifically proportional asymptotics. I am recently interested in deep generative models.
+I am a Machine Learning Engineer at Apple, working on Computer Vision and Generative Models. I previously obtained my PhD from the [Department of Statistics](https://statistics.fas.harvard.edu/) at Harvard University, advised by Prof. [Pragya Sur](https://sites.harvard.edu/prs499/), working on high dimensional statistics. I received my Bachelors degree in Applied and Computational Mathematics from [Caltech](https://www.caltech.edu/).
 
 I am the president of [Lanke](https://lanke.fun/), a Chinese werewolf (board game) club.
