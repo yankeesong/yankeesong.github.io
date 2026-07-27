@@ -3,7 +3,7 @@ layout: post
 title: Diffusion Models, Distillation, Flow Matching and more
 date: 2026-02-30 19:40:16
 description: My personal note on important generative model concepts
-tags: 
+tags:
 categories: technical posts
 giscus_comments: true
 ---

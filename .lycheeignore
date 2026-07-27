@@ -1,2 +1,15 @@
+# Hosts that reject the link checker rather than actually being broken.
+# Each of these resolves fine in a browser; they return 401/403 to
+# non-browser user agents, or 429 when several links to the same host are
+# checked in one run. Verify by hand before adding anything here.
+
 linkedin.com
 reddit.com
+
+# 403 to non-browser user agents
+caltech.edu
+statistics.fas.harvard.edu
+zhihu.com
+
+# 429 — the film links in the year-in-review posts all hit one host
+douban.com
