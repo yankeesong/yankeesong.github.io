@@ -99,3 +99,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          # gh-pages is a derived branch: every deploy writes a full snapshot of
+          # _site, so keeping its history just accumulates a dead copy of every
+          # image ever published (it had grown to ~1.4GB). Keep it at one commit.
+          single-commit: true
