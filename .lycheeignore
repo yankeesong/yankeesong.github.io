@@ -1,15 +1,19 @@
 # Hosts that reject the link checker rather than actually being broken.
-# Each of these resolves fine in a browser; they return 401/403 to
-# non-browser user agents, or 429 when several links to the same host are
-# checked in one run. Verify by hand before adding anything here.
+# Keep this list as short as possible — every entry is a link that stops being
+# checked. Verify by hand before adding, and prefer fixing the workflow args
+# (user-agent, --accept, concurrency) over silencing a host here.
+#
+# Rate-limited hosts do NOT belong here: 429 is accepted in broken-links.yml,
+# so those links are still checked and a real 404 will still fail the build.
 
 linkedin.com
 reddit.com
 
-# 403 to non-browser user agents
-caltech.edu
+# 403 to any non-browser client, verified by hand (curl with a browser
+# user-agent still gets 403; both load fine in a real browser)
 statistics.fas.harvard.edu
 zhihu.com
 
-# 429 — the film links in the year-in-review posts all hit one host
-douban.com
+# 412 from GitHub Actions runners only — bilibili blocks datacenter IPs.
+# Returns 200 from a residential connection with any user-agent.
+bilibili.com

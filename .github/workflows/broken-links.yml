@@ -46,6 +46,7 @@ jobs:
             --exclude-path README.md
             --exclude-path _pages/404.md
             --exclude-path _pages/blog.md
+            --accept '200..=299,429'
             --max-concurrency 4
             --retry-wait-time 3
             --max-retries 3
