@@ -14,6 +14,8 @@ reddit.com
 statistics.fas.harvard.edu
 zhihu.com
 
-# 412 from GitHub Actions runners only — bilibili blocks datacenter IPs.
-# Returns 200 from a residential connection with any user-agent.
+# Blocked from GitHub Actions runners only — these reject datacenter IPs.
+# Both return 200 from a residential connection with any user-agent, so a
+# local check is not evidence that CI can reach them.
 bilibili.com
+caltech.edu
