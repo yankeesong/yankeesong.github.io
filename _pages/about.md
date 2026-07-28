@@ -24,6 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Member of Technical Staff at a stealth startup. I was previously a Machine Learning Engineer at Apple, working on Computer Vision and Generative Models. I obtained my PhD from the [Department of Statistics](https://statistics.fas.harvard.edu/) at Harvard University, advised by Prof. [Pragya Sur](https://sites.harvard.edu/prs499/), working on high dimensional statistics. I received my Bachelors degree in Applied and Computational Mathematics from [Caltech](https://www.caltech.edu/).
+I am an AI Scientist at Roblox, working on realtime video world models. I was previously a Member of Technical Staff at Morpheus AI (acquired by Roblox). Before that I was a Machine Learning Engineer at Apple. I obtained my PhD from the [Department of Statistics](https://statistics.fas.harvard.edu/) at Harvard University, advised by Prof. [Pragya Sur](https://sites.harvard.edu/prs499/), working on high dimensional statistics. I received my Bachelors degree in Applied and Computational Mathematics from [Caltech](https://www.caltech.edu/).
 
 I am the president of [Lanke](https://lanke.fun/), a Chinese werewolf (board game) club.
+
+I do birding in my freetime. Check them out [here]({{ '/birds/' | relative_url }}).

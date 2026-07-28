@@ -1,0 +1,4741 @@
+{
+ "generated_at": "2026-07-28T01:19:15+00:00",
+ "stats": {
+  "species": 252,
+  "photos": 282,
+  "locations": 44,
+  "families": 59
+ },
+ "locations": {
+  "AdobeCreek": {
+   "lat": 37.3835,
+   "lon": -122.1256,
+   "display": "Adobe Creek, Los Altos Hills, CA",
+   "approximate": false
+  },
+  "AlvisoMarinaCountyPark": {
+   "lat": 37.4341,
+   "lon": -121.975,
+   "display": "Alviso Marina County Park, CA",
+   "approximate": false
+  },
+  "AnoNuevoStatePark": {
+   "lat": 37.1648,
+   "lon": -122.3282,
+   "display": "Año Nuevo State Park, CA",
+   "approximate": false
+  },
+  "BayanbulakXinjiang": {
+   "lat": 42.8569,
+   "lon": 84.15,
+   "display": "Bayanbulak Grassland, Xinjiang, CN",
+   "approximate": false
+  },
+  "BelleIsleMarshReservation": {
+   "lat": 42.388,
+   "lon": -70.9934,
+   "display": "Belle Isle Marsh Reservation, Boston, MA",
+   "approximate": false
+  },
+  "BolsaChicaEcologicalReserve": {
+   "lat": 33.6972,
+   "lon": -118.0366,
+   "display": "Bolsa Chica Ecological Reserve, CA",
+   "approximate": false
+  },
+  "BosqueDelApache": {
+   "lat": 33.7906,
+   "lon": -106.8881,
+   "display": "Bosque del Apache NWR, NM",
+   "approximate": false
+  },
+  "Boston": {
+   "lat": 42.3601,
+   "lon": -71.0589,
+   "display": "Boston, MA",
+   "approximate": false
+  },
+  "CoyoteHillsRegionalPark": {
+   "lat": 37.553,
+   "lon": -122.0966,
+   "display": "Coyote Hills Regional Park, CA",
+   "approximate": false
+  },
+  "CoyotePointRecreationArea": {
+   "lat": 37.588,
+   "lon": -122.3273,
+   "display": "Coyote Point Recreation Area, San Mateo, CA",
+   "approximate": false
+  },
+  "DeathValleyNP": {
+   "lat": 36.5054,
+   "lon": -117.0794,
+   "display": "Death Valley NP, CA",
+   "approximate": false
+  },
+  "DevilsSlideTrail": {
+   "lat": 37.5667,
+   "lon": -122.5147,
+   "display": "Devil's Slide Trail, San Mateo County, CA",
+   "approximate": false
+  },
+  "EganSloughRd": {
+   "lat": 48.1765,
+   "lon": -114.199,
+   "display": "Egan Slough, Flathead County, MT",
+   "approximate": false
+  },
+  "EvergladesNP": {
+   "lat": 25.3865,
+   "lon": -80.6131,
+   "display": "Everglades NP, FL",
+   "approximate": false
+  },
+  "FosterCity": {
+   "lat": 37.5585,
+   "lon": -122.2711,
+   "display": "Foster City, CA",
+   "approximate": false
+  },
+  "Fremont": {
+   "lat": 37.5485,
+   "lon": -121.9886,
+   "display": "Fremont, CA",
+   "approximate": false
+  },
+  "GlaciersNP": {
+   "lat": 48.6175,
+   "lon": -113.7609,
+   "display": "Glacier NP, MT",
+   "approximate": false
+  },
+  "GrandTetonNP": {
+   "lat": 43.7904,
+   "lon": -110.6818,
+   "display": "Grand Teton NP, WY",
+   "approximate": false
+  },
+  "GreatMeadowsNWRConcordUnit": {
+   "lat": 42.4786,
+   "lon": -71.3275,
+   "display": "Great Meadows NWR (Concord Unit), MA",
+   "approximate": false
+  },
+  "Hangzhou": {
+   "lat": 30.2741,
+   "lon": 120.1551,
+   "display": "Hangzhou, Zhejiang, CN",
+   "approximate": false
+  },
+  "Henderson": {
+   "lat": 36.0395,
+   "lon": -114.9817,
+   "display": "Henderson, NV",
+   "approximate": false
+  },
+  "Huangshan": {
+   "lat": 30.134,
+   "lon": 118.1656,
+   "display": "Huangshan, Anhui, CN",
+   "approximate": false
+  },
+  "HuntingtonLibrary": {
+   "lat": 34.1281,
+   "lon": -118.1123,
+   "display": "The Huntington Library, San Marino, CA",
+   "approximate": false
+  },
+  "JosephDGrantCountyPark": {
+   "lat": 37.3399,
+   "lon": -121.7156,
+   "display": "Joseph D. Grant County Park, CA",
+   "approximate": false
+  },
+  "KingsCanyonNP": {
+   "lat": 36.8879,
+   "lon": -118.5551,
+   "display": "Kings Canyon NP, CA",
+   "approximate": false
+  },
+  "London": {
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "display": "London, UK",
+   "approximate": false
+  },
+  "Miami": {
+   "lat": 25.7617,
+   "lon": -80.1918,
+   "display": "Miami, FL",
+   "approximate": false
+  },
+  "Milpitas": {
+   "lat": 37.4323,
+   "lon": -121.8996,
+   "display": "Milpitas, CA",
+   "approximate": false
+  },
+  "Monterey": {
+   "lat": 36.6002,
+   "lon": -121.8947,
+   "display": "Monterey, CA",
+   "approximate": false
+  },
+  "MontrosePoint": {
+   "lat": 41.9636,
+   "lon": -87.6383,
+   "display": "Montrose Point Bird Sanctuary, Chicago, IL",
+   "approximate": false
+  },
+  "NavyPier": {
+   "lat": 41.8917,
+   "lon": -87.6086,
+   "display": "Navy Pier, Chicago, IL",
+   "approximate": false
+  },
+  "Pasadena": {
+   "lat": 34.1478,
+   "lon": -118.1445,
+   "display": "Pasadena, CA",
+   "approximate": false
+  },
+  "PillarPointHarbor": {
+   "lat": 37.5012,
+   "lon": -122.4748,
+   "display": "Pillar Point Harbor, Half Moon Bay, CA",
+   "approximate": false
+  },
+  "SantaClaraSquare": {
+   "lat": 37.4036,
+   "lon": -121.975,
+   "display": "Santa Clara Square, Santa Clara, CA",
+   "approximate": false
+  },
+  "ScorpionAnchorage": {
+   "lat": 34.0489,
+   "lon": -119.5567,
+   "display": "Scorpion Anchorage, Santa Cruz Island, CA",
+   "approximate": true
+  },
+  "SequoiaNP": {
+   "lat": 36.4864,
+   "lon": -118.5658,
+   "display": "Sequoia NP, CA",
+   "approximate": false
+  },
+  "SonnyBoonMemorialTrail": {
+   "lat": 48.0883,
+   "lon": -114.2294,
+   "display": "Sonny Boon Memorial Trail, MT",
+   "approximate": false
+  },
+  "Suzhou": {
+   "lat": 31.2989,
+   "lon": 120.5853,
+   "display": "Suzhou, Jiangsu, CN",
+   "approximate": false
+  },
+  "WilderRanchStatePark": {
+   "lat": 36.9947,
+   "lon": -122.0864,
+   "display": "Wilder Ranch State Park, CA",
+   "approximate": false
+  },
+  "WindyHillOSP": {
+   "lat": 37.3608,
+   "lon": -122.2366,
+   "display": "Windy Hill Open Space Preserve, CA",
+   "approximate": false
+  },
+  "Xian": {
+   "lat": 34.3416,
+   "lon": 108.9398,
+   "display": "Xi'an, Shaanxi, CN",
+   "approximate": false
+  },
+  "YamdrokLake": {
+   "lat": 28.9536,
+   "lon": 90.6647,
+   "display": "Yamdrok Lake, Tibet, CN",
+   "approximate": false
+  },
+  "YosemiteNP": {
+   "lat": 37.8651,
+   "lon": -119.5383,
+   "display": "Yosemite NP, CA",
+   "approximate": false
+  },
+  "ZionNP": {
+   "lat": 37.2982,
+   "lon": -113.0263,
+   "display": "Zion NP, UT",
+   "approximate": false
+  }
+ },
+ "species": [
+  {
+   "en": "Snow Goose",
+   "zh": "雪雁",
+   "code": "snogoo",
+   "sciName": "Anser caerulescens",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 267.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-11-28",
+     "location": "BosqueDelApache",
+     "file": "snogoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ross's Goose",
+   "zh": "细嘴雁",
+   "code": "rosgoo",
+   "sciName": "Anser rossii",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 272.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-11-28",
+     "location": "BosqueDelApache",
+     "file": "rosgoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Graylag Goose",
+   "zh": "灰雁",
+   "code": "gragoo",
+   "sciName": "Anser anser",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 275.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-01-25",
+     "location": "London",
+     "file": "gragoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Greater White-fronted Goose",
+   "zh": "白额雁",
+   "code": "gwfgoo",
+   "sciName": "Anser albifrons",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 287.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "gwfgoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Barnacle Goose",
+   "zh": "白颊黑雁",
+   "code": "bargoo",
+   "sciName": "Branta leucopsis",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 322.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-01-25",
+     "location": "London",
+     "file": "bargoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canada Goose",
+   "zh": "加拿大黑雁",
+   "code": "cangoo",
+   "sciName": "Branta canadensis",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 342.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "cangoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Mute Swan",
+   "zh": "疣鼻天鹅",
+   "code": "mutswa",
+   "sciName": "Cygnus olor",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 377.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-02-22",
+     "location": "London",
+     "file": "mutswa-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "mutswa-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Swan",
+   "zh": "黑天鹅",
+   "code": "blkswa",
+   "sciName": "Cygnus atratus",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 379.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2018-12-28",
+     "location": "Suzhou",
+     "file": "blkswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Trumpeter Swan",
+   "zh": "黑嘴天鹅",
+   "code": "truswa",
+   "sciName": "Cygnus buccinator",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 382.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "truswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Whooper Swan",
+   "zh": "大天鹅",
+   "code": "whoswa",
+   "sciName": "Cygnus cygnus",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 390.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2019-09-14",
+     "location": "BayanbulakXinjiang",
+     "file": "whoswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Egyptian Goose",
+   "zh": "埃及雁",
+   "code": "egygoo",
+   "sciName": "Alopochen aegyptiaca",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 417.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-02-02",
+     "location": "London",
+     "file": "egygoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wood Duck",
+   "zh": "林鸳鸯",
+   "code": "wooduc",
+   "sciName": "Aix sponsa",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 455.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "wooduc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Mandarin Duck",
+   "zh": "鸳鸯",
+   "code": "manduc",
+   "sciName": "Aix galericulata",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 457.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2024-12-24",
+     "location": "Hangzhou",
+     "file": "manduc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Blue-winged Teal",
+   "zh": "蓝翅鸭",
+   "code": "buwtea",
+   "sciName": "Spatula discors",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 485.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "buwtea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Cinnamon Teal",
+   "zh": "桂红鸭",
+   "code": "cintea",
+   "sciName": "Spatula cyanoptera",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 487.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "cintea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Shoveler",
+   "zh": "琵嘴鸭",
+   "code": "norsho",
+   "sciName": "Spatula clypeata",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 501.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "norsho-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Gadwall",
+   "zh": "赤膀鸭",
+   "code": "gadwal",
+   "sciName": "Mareca strepera",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 505.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "gadwal-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-21",
+     "location": "AlvisoMarinaCountyPark",
+     "file": "gadwal-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Wigeon",
+   "zh": "绿眉鸭",
+   "code": "amewig",
+   "sciName": "Mareca americana",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 517.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "amewig-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eastern Spot-billed Duck",
+   "zh": "斑嘴鸭",
+   "code": "spbduc",
+   "sciName": "Anas zonorhyncha",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 543.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2017-08-27",
+     "location": "Huangshan",
+     "file": "spbduc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Mallard",
+   "zh": "绿头鸭",
+   "code": "mallar3",
+   "sciName": "Anas platyrhynchos",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 545.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "mallar3-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Black Duck",
+   "zh": "北美黑鸭",
+   "code": "ambduc",
+   "sciName": "Anas rubripes",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 571.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "BelleIsleMarshReservation",
+     "file": "ambduc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Pintail",
+   "zh": "针尾鸭",
+   "code": "norpin",
+   "sciName": "Anas acuta",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 594.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-11-28",
+     "location": "BosqueDelApache",
+     "file": "norpin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Green-winged Teal",
+   "zh": "绿翅鸭",
+   "code": "gnwtea",
+   "sciName": "Anas crecca",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 612.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "gnwtea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Redhead",
+   "zh": "美洲潜鸭",
+   "code": "redhea",
+   "sciName": "Aythya americana",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 667.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "redhea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Pochard",
+   "zh": "红头潜鸭",
+   "code": "compoc",
+   "sciName": "Aythya ferina",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 670.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2018-12-24",
+     "location": "Suzhou",
+     "file": "compoc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Surf Scoter",
+   "zh": "斑头海番鸭",
+   "code": "sursco",
+   "sciName": "Melanitta perspicillata",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 728.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "sursco-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-12",
+     "location": "PillarPointHarbor",
+     "file": "sursco-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Goldeneye",
+   "zh": "鹊鸭",
+   "code": "comgol",
+   "sciName": "Bucephala clangula",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 743.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "comgol-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Merganser",
+   "zh": "普通秋沙鸭",
+   "code": "commer",
+   "sciName": "Mergus merganser",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 762.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-02",
+     "location": "GlaciersNP",
+     "file": "commer-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ruddy Duck",
+   "zh": "棕硬尾鸭",
+   "code": "rudduc",
+   "sciName": "Oxyura jamaicensis",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 778.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "rudduc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Quail",
+   "zh": "珠颈斑鹑",
+   "code": "calqua",
+   "sciName": "Callipepla californica",
+   "family": "New World Quail",
+   "order": "Galliformes",
+   "taxonOrder": 1094.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "WilderRanchStatePark",
+     "file": "calqua-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-06-19",
+     "location": "WindyHillOSP",
+     "file": "calqua-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Gambel's Quail",
+   "zh": "黑腹翎鹑",
+   "code": "gamqua",
+   "sciName": "Callipepla gambelii",
+   "family": "New World Quail",
+   "order": "Galliformes",
+   "taxonOrder": 1105.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "Henderson",
+     "file": "gamqua-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wild Turkey",
+   "zh": "火鸡",
+   "code": "wiltur",
+   "sciName": "Meleagris gallopavo",
+   "family": "Pheasants, Grouse, and Allies",
+   "order": "Galliformes",
+   "taxonOrder": 1274.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2021-03-13",
+     "location": "Boston",
+     "file": "wiltur-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sooty Grouse",
+   "zh": "乌镰翅鸡",
+   "code": "soogro1",
+   "sciName": "Dendragapus fuliginosus",
+   "family": "Pheasants, Grouse, and Allies",
+   "order": "Galliformes",
+   "taxonOrder": 1320.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "soogro1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ring-necked Pheasant",
+   "zh": "雉鸡",
+   "code": "rinphe1",
+   "sciName": "Phasianus colchicus",
+   "family": "Pheasants, Grouse, and Allies",
+   "order": "Galliformes",
+   "taxonOrder": 1477.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-03-01",
+     "location": "London",
+     "file": "rinphe1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Indian Peafowl",
+   "zh": "蓝孔雀",
+   "code": "compea",
+   "sciName": "Pavo cristatus",
+   "family": "Pheasants, Grouse, and Allies",
+   "order": "Galliformes",
+   "taxonOrder": 1573.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-02-21",
+     "location": "Pasadena",
+     "file": "compea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Rock Pigeon",
+   "zh": "原鸽",
+   "code": "rocpig",
+   "sciName": "Columba livia",
+   "family": "Pigeons and Doves",
+   "order": "Columbiformes",
+   "taxonOrder": 1853.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "Henderson",
+     "file": "rocpig-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eurasian Collared-Dove",
+   "zh": "灰斑鸠",
+   "code": "eucdov",
+   "sciName": "Streptopelia decaocto",
+   "family": "Pigeons and Doves",
+   "order": "Columbiformes",
+   "taxonOrder": 2031.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "eucdov-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Mourning Dove",
+   "zh": "哀鸽",
+   "code": "moudov",
+   "sciName": "Zenaida macroura",
+   "family": "Pigeons and Doves",
+   "order": "Columbiformes",
+   "taxonOrder": 2412.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-14",
+     "location": "SantaClaraSquare",
+     "file": "moudov-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Greater Roadrunner",
+   "zh": "走鹃",
+   "code": "greroa",
+   "sciName": "Geococcyx californianus",
+   "family": "Cuckoos",
+   "order": "Cuculiformes",
+   "taxonOrder": 3038.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "greroa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lesser Nighthawk",
+   "zh": "小灰眉夜鹰",
+   "code": "lesnig",
+   "sciName": "Chordeiles acutipennis",
+   "family": "Nightjars and Allies",
+   "order": "Caprimulgiformes",
+   "taxonOrder": 3484.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "lesnig-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Chimney Swift",
+   "zh": "烟囱雨燕",
+   "code": "chiswi",
+   "sciName": "Chaetura pelagica",
+   "family": "Swifts",
+   "order": "Apodiformes",
+   "taxonOrder": 3896.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "chiswi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ruby-throated Hummingbird",
+   "zh": "红喉北蜂鸟",
+   "code": "rthhum",
+   "sciName": "Archilochus colubris",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4802.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-29",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "rthhum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-chinned Hummingbird",
+   "zh": "黑颏北蜂鸟",
+   "code": "bkchum",
+   "sciName": "Archilochus alexandri",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4803.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "bkchum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Anna's Hummingbird",
+   "zh": "安氏蜂鸟",
+   "code": "annhum",
+   "sciName": "Calypte anna",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4814.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "annhum-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "annhum-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Costa's Hummingbird",
+   "zh": "科氏蜂鸟",
+   "code": "coshum",
+   "sciName": "Calypte costae",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4818.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "coshum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Allen's Hummingbird",
+   "zh": "艾氏煌蜂鸟",
+   "code": "allhum",
+   "sciName": "Selasphorus sasin",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4831.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "allhum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Broad-tailed Hummingbird",
+   "zh": "宽尾煌蜂鸟",
+   "code": "brthum",
+   "sciName": "Selasphorus platycercus",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 4839.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "brthum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Virginia Rail",
+   "zh": "弗吉尼亚秧鸡",
+   "code": "virrai",
+   "sciName": "Rallus limicola",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5297.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "virrai-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eurasian Moorhen",
+   "zh": "黑水鸡",
+   "code": "commoo3",
+   "sciName": "Gallinula chloropus",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5462.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-03-06",
+     "location": "London",
+     "file": "commoo3-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Gallinule",
+   "zh": "美洲黑水鸡",
+   "code": "comgal1",
+   "sciName": "Gallinula galeata",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5468.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "comgal1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eurasian Coot",
+   "zh": "白骨顶",
+   "code": "eurcoo",
+   "sciName": "Fulica atra",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5487.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-01-25",
+     "location": "London",
+     "file": "eurcoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Coot",
+   "zh": "美洲骨顶",
+   "code": "y00475",
+   "sciName": "Fulica americana",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5500.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "y00475-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sandhill Crane",
+   "zh": "沙丘鹤",
+   "code": "sancra",
+   "sciName": "Antigone canadensis",
+   "family": "Cranes",
+   "order": "Gruiformes",
+   "taxonOrder": 5697.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-11-28",
+     "location": "BosqueDelApache",
+     "file": "sancra-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-necked Stilt",
+   "zh": "黑颈长脚鹬",
+   "code": "bknsti",
+   "sciName": "Himantopus mexicanus",
+   "family": "Stilts and Avocets",
+   "order": "Charadriiformes",
+   "taxonOrder": 5770.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "bknsti-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Avocet",
+   "zh": "褐胸反嘴鹬",
+   "code": "ameavo",
+   "sciName": "Recurvirostra americana",
+   "family": "Stilts and Avocets",
+   "order": "Charadriiformes",
+   "taxonOrder": 5780.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "ameavo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Oystercatcher",
+   "zh": "北美黑蛎鹬",
+   "code": "blkoys",
+   "sciName": "Haematopus bachmani",
+   "family": "Oystercatchers",
+   "order": "Charadriiformes",
+   "taxonOrder": 5806.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-19",
+     "location": "ScorpionAnchorage",
+     "file": "blkoys-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-bellied Plover",
+   "zh": "灰斑鸻",
+   "code": "bkbplo",
+   "sciName": "Pluvialis squatarola",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5811.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "bkbplo-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "bkbplo-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Killdeer",
+   "zh": "双领鸻",
+   "code": "killde",
+   "sciName": "Charadrius vociferus",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5827.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "killde-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Semipalmated Plover",
+   "zh": "半蹼鸻",
+   "code": "semplo",
+   "sciName": "Charadrius semipalmatus",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5834.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "semplo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Piping Plover",
+   "zh": "笛鸻",
+   "code": "pipplo",
+   "sciName": "Charadrius melodus",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5836.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "pipplo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Hudsonian Whimbrel",
+   "zh": "哈德森杓鹬",
+   "code": "whimbr3",
+   "sciName": "Numenius hudsonicus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6011.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "whimbr3-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Long-billed Curlew",
+   "zh": "长嘴杓鹬",
+   "code": "lobcur",
+   "sciName": "Numenius americanus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6021.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "lobcur-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Marbled Godwit",
+   "zh": "云斑塍鹬",
+   "code": "margod",
+   "sciName": "Limosa fedoa",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6051.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "margod-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Short-billed Dowitcher",
+   "zh": "短嘴半蹼鹬",
+   "code": "shbdow",
+   "sciName": "Limnodromus griseus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6057.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "shbdow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Long-billed Dowitcher",
+   "zh": "长嘴半蹼鹬",
+   "code": "lobdow",
+   "sciName": "Limnodromus scolopaceus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6061.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "lobdow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wilson's Phalarope",
+   "zh": "细嘴瓣蹼鹬",
+   "code": "wilpha",
+   "sciName": "Phalaropus tricolor",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6119.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "wilpha-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Spotted Sandpiper",
+   "zh": "斑腹矶鹬",
+   "code": "sposan",
+   "sciName": "Actitis macularius",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6126.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "sposan-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "sposan-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Willet",
+   "zh": "斑翅鹬",
+   "code": "willet1",
+   "sciName": "Tringa semipalmata",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6147.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "BelleIsleMarshReservation",
+     "file": "willet1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Greater Yellowlegs",
+   "zh": "大黄脚鹬",
+   "code": "greyel",
+   "sciName": "Tringa melanoleuca",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6154.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "greyel-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "greyel-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ruddy Turnstone",
+   "zh": "翻石鹬",
+   "code": "rudtur",
+   "sciName": "Arenaria interpres",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6161.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "rudtur-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Turnstone",
+   "zh": "黑翻石鹬",
+   "code": "blktur",
+   "sciName": "Arenaria melanocephala",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6164.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "blktur-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red Knot",
+   "zh": "红腹滨鹬",
+   "code": "redkno",
+   "sciName": "Calidris canutus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6166.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "redkno-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Surfbird",
+   "zh": "短嘴鹬",
+   "code": "surfbi",
+   "sciName": "Calidris virgata",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6174.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "surfbi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sanderling",
+   "zh": "三趾滨鹬",
+   "code": "sander",
+   "sciName": "Calidris alba",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6189.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "sander-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Dunlin",
+   "zh": "黑腹滨鹬",
+   "code": "dunlin",
+   "sciName": "Calidris alpina",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6192.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "dunlin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Least Sandpiper",
+   "zh": "美洲小滨鹬",
+   "code": "leasan",
+   "sciName": "Calidris minutilla",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6226.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "leasan-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Sandpiper",
+   "zh": "西方滨鹬",
+   "code": "wessan",
+   "sciName": "Calidris mauri",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6231.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "wessan-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-26",
+     "location": "CoyotePointRecreationArea",
+     "file": "wessan-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Semipalmated Sandpiper",
+   "zh": "半蹼滨鹬",
+   "code": "semsan",
+   "sciName": "Calidris pusilla",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6232.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "semsan-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pigeon Guillemot",
+   "zh": "海鸽",
+   "code": "piggui",
+   "sciName": "Cepphus columba",
+   "family": "Auks, Murres, and Puffins",
+   "order": "Charadriiformes",
+   "taxonOrder": 6404.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "piggui-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-12",
+     "location": "PillarPointHarbor",
+     "file": "piggui-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-headed Gull",
+   "zh": "红嘴鸥",
+   "code": "bkhgul",
+   "sciName": "Chroicocephalus ridibundus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6474.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-12-27",
+     "location": "Xian",
+     "file": "bkhgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brown-headed Gull",
+   "zh": "棕头鸥",
+   "code": "bnhgul1",
+   "sciName": "Chroicocephalus brunnicephalus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6477.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-07-30",
+     "location": "YamdrokLake",
+     "file": "bnhgul1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Heermann's Gull",
+   "zh": "红嘴灰鸥",
+   "code": "heegul",
+   "sciName": "Larus heermanni",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6512.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-28",
+     "location": "DevilsSlideTrail",
+     "file": "heegul-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-12",
+     "location": "PillarPointHarbor",
+     "file": "heegul-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Short-billed Gull",
+   "zh": "美洲海鸥",
+   "code": "mewgul2",
+   "sciName": "Larus brachyrhynchus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6519.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "mewgul2-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ring-billed Gull",
+   "zh": "环嘴鸥",
+   "code": "ribgul",
+   "sciName": "Larus delawarensis",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6521.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "ribgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Gull",
+   "zh": "西美鸥",
+   "code": "wesgul",
+   "sciName": "Larus occidentalis",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6528.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "wesgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Herring Gull",
+   "zh": "美洲银鸥",
+   "code": "amhgul1",
+   "sciName": "Larus smithsonianus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6539.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-23",
+     "location": "NavyPier",
+     "file": "amhgul1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Gull",
+   "zh": "加州鸥",
+   "code": "calgul",
+   "sciName": "Larus californicus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6591.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "calgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Glaucous-winged Gull",
+   "zh": "灰翅鸥",
+   "code": "glwgul",
+   "sciName": "Larus glaucescens",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6596.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2019-08-28",
+     "location": "Monterey",
+     "file": "glwgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Iceland Gull",
+   "zh": "冰岛鸥",
+   "code": "y00478",
+   "sciName": "Larus glaucoides",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6606.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2021-06-06",
+     "location": "Boston",
+     "file": "y00478-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Skimmer",
+   "zh": "黑剪嘴鸥",
+   "code": "blkski",
+   "sciName": "Rynchops niger",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6622.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "blkski-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Least Tern",
+   "zh": "小白额燕鸥",
+   "code": "leater1",
+   "sciName": "Sternula antillarum",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6699.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "leater1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Caspian Tern",
+   "zh": "红嘴巨燕鸥",
+   "code": "caster1",
+   "sciName": "Hydroprogne caspia",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6718.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "caster1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Forster's Tern",
+   "zh": "弗氏燕鸥",
+   "code": "forter",
+   "sciName": "Sterna forsteri",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6731.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "forter-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Elegant Tern",
+   "zh": "美洲凤头燕鸥",
+   "code": "eleter1",
+   "sciName": "Thalasseus elegans",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6780.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "eleter1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Royal Tern",
+   "zh": "橙嘴凤头燕鸥",
+   "code": "royter1",
+   "sciName": "Thalasseus maximus",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6789.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "royter1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pied-billed Grebe",
+   "zh": "斑嘴巨䴙䴘",
+   "code": "pibgre",
+   "sciName": "Podilymbus podiceps",
+   "family": "Grebes",
+   "order": "Podicipediformes",
+   "taxonOrder": 6855.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "pibgre-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "pibgre-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "pibgre-2.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eared Grebe",
+   "zh": "黑颈䴙䴘",
+   "code": "eargre",
+   "sciName": "Podiceps nigricollis",
+   "family": "Grebes",
+   "order": "Podicipediformes",
+   "taxonOrder": 6876.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "eargre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Grebe",
+   "zh": "北美䴙䴘",
+   "code": "wesgre",
+   "sciName": "Aechmophorus occidentalis",
+   "family": "Grebes",
+   "order": "Podicipediformes",
+   "taxonOrder": 6888.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "wesgre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-throated Loon",
+   "zh": "红喉潜鸟",
+   "code": "retloo",
+   "sciName": "Gavia stellata",
+   "family": "Loons",
+   "order": "Gaviiformes",
+   "taxonOrder": 6927.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-12",
+     "location": "PillarPointHarbor",
+     "file": "retloo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Loon",
+   "zh": "普通潜鸟",
+   "code": "comloo",
+   "sciName": "Gavia immer",
+   "family": "Loons",
+   "order": "Gaviiformes",
+   "taxonOrder": 6933.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "comloo-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-12",
+     "location": "PillarPointHarbor",
+     "file": "comloo-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-vented Shearwater",
+   "zh": "黑臀鹱",
+   "code": "bkvshe",
+   "sciName": "Puffinus opisthomelas",
+   "family": "Shearwaters and Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7234.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-19",
+     "location": "ScorpionAnchorage",
+     "file": "bkvshe-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Anhinga",
+   "zh": "美洲蛇鹈",
+   "code": "anhing",
+   "sciName": "Anhinga anhinga",
+   "family": "Anhingas",
+   "order": "Suliformes",
+   "taxonOrder": 7367.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2023-03-13",
+     "location": "Miami",
+     "file": "anhing-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brandt's Cormorant",
+   "zh": "加州鸬鹚",
+   "code": "bracor",
+   "sciName": "Urile penicillatus",
+   "family": "Cormorants and Shags",
+   "order": "Suliformes",
+   "taxonOrder": 7389.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "bracor-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pelagic Cormorant",
+   "zh": "海鸬鹚",
+   "code": "pelcor",
+   "sciName": "Urile pelagicus",
+   "family": "Cormorants and Shags",
+   "order": "Suliformes",
+   "taxonOrder": 7391.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "pelcor-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Double-crested Cormorant",
+   "zh": "角鸬鹚",
+   "code": "doccor",
+   "sciName": "Nannopterum auritum",
+   "family": "Cormorants and Shags",
+   "order": "Suliformes",
+   "taxonOrder": 7424.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2023-03-13",
+     "location": "Miami",
+     "file": "doccor-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White Ibis",
+   "zh": "美洲白鹮",
+   "code": "whiibi",
+   "sciName": "Eudocimus albus",
+   "family": "Ibises and Spoonbills",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7462.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2023-03-13",
+     "location": "Miami",
+     "file": "whiibi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-faced Ibis",
+   "zh": "白脸彩鹮",
+   "code": "whfibi",
+   "sciName": "Plegadis chihi",
+   "family": "Ibises and Spoonbills",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7468.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "whfibi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-crowned Night Heron",
+   "zh": "黄冠夜鹭",
+   "code": "ycnher",
+   "sciName": "Nyctanassa violacea",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7591.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "ycnher-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-crowned Night Heron",
+   "zh": "夜鹭",
+   "code": "bcnher",
+   "sciName": "Nycticorax nycticorax",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7600.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "bcnher-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Little Blue Heron",
+   "zh": "小蓝鹭",
+   "code": "libher",
+   "sciName": "Egretta caerulea",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7629.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2023-03-13",
+     "location": "EvergladesNP",
+     "file": "libher-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Reddish Egret",
+   "zh": "棕颈鹭",
+   "code": "redegr",
+   "sciName": "Egretta rufescens",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7634.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "redegr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Snowy Egret",
+   "zh": "雪鹭",
+   "code": "snoegr",
+   "sciName": "Egretta thula",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7645.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "DeathValleyNP",
+     "file": "snoegr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Green Heron",
+   "zh": "绿鹭",
+   "code": "grnher",
+   "sciName": "Butorides virescens",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7704.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "grnher-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Cattle-Egret",
+   "zh": "西牛背鹭",
+   "code": "categr1",
+   "sciName": "Ardea ibis",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7724.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "categr1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Great Egret",
+   "zh": "大白鹭",
+   "code": "greegr",
+   "sciName": "Ardea alba",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7729.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "greegr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Great Blue Heron",
+   "zh": "大蓝鹭",
+   "code": "grbher3",
+   "sciName": "Ardea herodias",
+   "family": "Herons, Egrets, and Bitterns",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7753.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "DeathValleyNP",
+     "file": "grbher3-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brown Pelican",
+   "zh": "褐鹈鹕",
+   "code": "brnpel",
+   "sciName": "Pelecanus occidentalis",
+   "family": "Pelicans",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7792.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-06-09",
+     "location": "Monterey",
+     "file": "brnpel-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "brnpel-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Great White Pelican",
+   "zh": "白鹈鹕",
+   "code": "grwpel1",
+   "sciName": "Pelecanus onocrotalus",
+   "family": "Pelicans",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7800.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2020-01-25",
+     "location": "London",
+     "file": "grwpel1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Condor",
+   "zh": "加州神鹫",
+   "code": "calcon",
+   "sciName": "Gymnogyps californianus",
+   "family": "New World Vultures",
+   "order": "Cathartiformes",
+   "taxonOrder": 7808.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-05-04",
+     "location": "ZionNP",
+     "file": "calcon-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Turkey Vulture",
+   "zh": "红头美洲鹫",
+   "code": "turvul",
+   "sciName": "Cathartes aura",
+   "family": "New World Vultures",
+   "order": "Cathartiformes",
+   "taxonOrder": 7815.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "turvul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Osprey",
+   "zh": "鹗",
+   "code": "osprey",
+   "sciName": "Pandion haliaetus",
+   "family": "Osprey",
+   "order": "Accipitriformes",
+   "taxonOrder": 7832.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "Henderson",
+     "file": "osprey-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-30",
+     "location": "BelleIsleMarshReservation",
+     "file": "osprey-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Harrier",
+   "zh": "北鹞",
+   "code": "norhar2",
+   "sciName": "Circus hudsonius",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8324.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "norhar2-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bald Eagle",
+   "zh": "白头海雕",
+   "code": "baleag",
+   "sciName": "Haliaeetus leucocephalus",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8367.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "baleag-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "baleag-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-shouldered Hawk",
+   "zh": "赤肩鵟",
+   "code": "reshaw",
+   "sciName": "Buteo lineatus",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8487.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "reshaw-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Swainson's Hawk",
+   "zh": "斯氏鵟",
+   "code": "swahaw",
+   "sciName": "Buteo swainsoni",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8504.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-01-19",
+     "location": "Fremont",
+     "file": "swahaw-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-tailed Hawk",
+   "zh": "红尾鵟",
+   "code": "rethaw",
+   "sciName": "Buteo jamaicensis",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8506.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "rethaw-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Great Horned Owl",
+   "zh": "美洲雕鸮",
+   "code": "grhowl",
+   "sciName": "Bubo virginianus",
+   "family": "Owls",
+   "order": "Strigiformes",
+   "taxonOrder": 8910.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-30",
+     "location": "AdobeCreek",
+     "file": "grhowl-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-breasted Sapsucker",
+   "zh": "红胸吸汁啄木鸟",
+   "code": "rebsap",
+   "sciName": "Sphyrapicus ruber",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11130.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "rebsap-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Acorn Woodpecker",
+   "zh": "橡树啄木鸟",
+   "code": "acowoo",
+   "sciName": "Melanerpes formicivorus",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11146.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "acowoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Downy Woodpecker",
+   "zh": "绒啄木鸟",
+   "code": "dowwoo",
+   "sciName": "Dryobates pubescens",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11400.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "dowwoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Hairy Woodpecker",
+   "zh": "长嘴啄木鸟",
+   "code": "haiwoo",
+   "sciName": "Leuconotopicus villosus",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11427.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2018-11-25",
+     "location": "YosemiteNP",
+     "file": "haiwoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pileated Woodpecker",
+   "zh": "北美黑啄木鸟",
+   "code": "pilwoo",
+   "sciName": "Dryocopus pileatus",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11762.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "pilwoo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Flicker",
+   "zh": "北扑翅䴕",
+   "code": "norfli",
+   "sciName": "Colaptes auratus",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11900.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "EganSloughRd",
+     "file": "norfli-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Peregrine Falcon",
+   "zh": "游隼",
+   "code": "perfal",
+   "sciName": "Falco peregrinus",
+   "family": "Falcons and Caracaras",
+   "order": "Falconiformes",
+   "taxonOrder": 12114.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-28",
+     "location": "DevilsSlideTrail",
+     "file": "perfal-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Wood-Pewee",
+   "zh": "西绿霸鹟",
+   "code": "wewpew",
+   "sciName": "Contopus sordidulus",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16912.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "wewpew-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eastern Wood-Pewee",
+   "zh": "东绿霸鹟",
+   "code": "eawpew",
+   "sciName": "Contopus virens",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16924.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "eawpew-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-bellied Flycatcher",
+   "zh": "黄腹纹霸鹟",
+   "code": "yebfly",
+   "sciName": "Empidonax flaviventris",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16949.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "yebfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Acadian Flycatcher",
+   "zh": "绿纹霸鹟",
+   "code": "acafly",
+   "sciName": "Empidonax virescens",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16950.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-25",
+     "location": "MontrosePoint",
+     "file": "acafly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Alder Flycatcher",
+   "zh": "桤木纹霸鹟",
+   "code": "aldfly",
+   "sciName": "Empidonax alnorum",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16951.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "aldfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Willow Flycatcher",
+   "zh": "纹霸鹟",
+   "code": "wilfly",
+   "sciName": "Empidonax traillii",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16952.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-29",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "wilfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Least Flycatcher",
+   "zh": "小纹霸鹟",
+   "code": "leafly",
+   "sciName": "Empidonax minimus",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16963.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "leafly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Flycatcher",
+   "zh": "北美纹霸鹟",
+   "code": "wesfly",
+   "sciName": "Empidonax difficilis",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16975.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "wesfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Phoebe",
+   "zh": "黑长尾霸鹟",
+   "code": "blkpho",
+   "sciName": "Sayornis nigricans",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 16998.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "blkpho-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Say's Phoebe",
+   "zh": "棕腹长尾霸鹟",
+   "code": "saypho",
+   "sciName": "Sayornis saya",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17010.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "saypho-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ash-throated Flycatcher",
+   "zh": "灰喉蝇霸鹟",
+   "code": "astfly",
+   "sciName": "Myiarchus cinerascens",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17323.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "Henderson",
+     "file": "astfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Cassin's Kingbird",
+   "zh": "卡氏王霸鹟",
+   "code": "caskin",
+   "sciName": "Tyrannus vociferans",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17461.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "caskin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Kingbird",
+   "zh": "西王霸鹟",
+   "code": "weskin",
+   "sciName": "Tyrannus verticalis",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17467.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "weskin-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "weskin-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eastern Kingbird",
+   "zh": "东王霸鹟",
+   "code": "easkin",
+   "sciName": "Tyrannus tyrannus",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17472.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "easkin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Hutton's Vireo",
+   "zh": "郝氏莺雀",
+   "code": "hutvir",
+   "sciName": "Vireo huttoni",
+   "family": "Vireos, Shrike-Babblers, and Erpornis",
+   "order": "Passeriformes",
+   "taxonOrder": 19204.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-19",
+     "location": "WindyHillOSP",
+     "file": "hutvir-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-throated Vireo",
+   "zh": "黄喉莺雀",
+   "code": "yetvir",
+   "sciName": "Vireo flavifrons",
+   "family": "Vireos, Shrike-Babblers, and Erpornis",
+   "order": "Passeriformes",
+   "taxonOrder": 19220.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-29",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "yetvir-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eastern Warbling Vireo",
+   "zh": "歌莺雀",
+   "code": "eawvir1",
+   "sciName": "Vireo gilvus",
+   "family": "Vireos, Shrike-Babblers, and Erpornis",
+   "order": "Passeriformes",
+   "taxonOrder": 19245.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-25",
+     "location": "MontrosePoint",
+     "file": "eawvir1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-eyed Vireo",
+   "zh": "红眼莺雀",
+   "code": "reevir1",
+   "sciName": "Vireo olivaceus",
+   "family": "Vireos, Shrike-Babblers, and Erpornis",
+   "order": "Passeriformes",
+   "taxonOrder": 19267.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "reevir1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Steller's Jay",
+   "zh": "暗冠蓝鸦",
+   "code": "stejay",
+   "sciName": "Cyanocitta stelleri",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21274.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "stejay-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Blue Jay",
+   "zh": "冠蓝鸦",
+   "code": "blujay",
+   "sciName": "Cyanocitta cristata",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21294.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-27",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "blujay-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Island Scrub-Jay",
+   "zh": "圣岛丛鸦",
+   "code": "issjay",
+   "sciName": "Aphelocoma insularis",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21302.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-19",
+     "location": "ScorpionAnchorage",
+     "file": "issjay-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Scrub-Jay",
+   "zh": "西丛鸦",
+   "code": "cowscj1",
+   "sciName": "Aphelocoma californica",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21303.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "cowscj1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Oriental Magpie",
+   "zh": "喜鹊",
+   "code": "orimag1",
+   "sciName": "Pica serica",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21466.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2019-12-24",
+     "location": "Xian",
+     "file": "orimag1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-billed Magpie",
+   "zh": "北美喜鹊",
+   "code": "bkbmag1",
+   "sciName": "Pica hudsonia",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21476.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2025-06-01",
+     "location": "GrandTetonNP",
+     "file": "bkbmag1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Crow",
+   "zh": "短嘴鸦",
+   "code": "amecro",
+   "sciName": "Corvus brachyrhynchos",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21557.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "amecro-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Raven",
+   "zh": "渡鸦",
+   "code": "comrav",
+   "sciName": "Corvus corax",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21624.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-04",
+     "location": "SequoiaNP",
+     "file": "comrav-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-capped Chickadee",
+   "zh": "黑顶山雀",
+   "code": "bkcchi",
+   "sciName": "Poecile atricapillus",
+   "family": "Tits, Chickadees, and Titmice",
+   "order": "Passeriformes",
+   "taxonOrder": 22065.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "bkcchi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Chestnut-backed Chickadee",
+   "zh": "栗背山雀",
+   "code": "chbchi",
+   "sciName": "Poecile rufescens",
+   "family": "Tits, Chickadees, and Titmice",
+   "order": "Passeriformes",
+   "taxonOrder": 22094.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-14",
+     "location": "SantaClaraSquare",
+     "file": "chbchi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Oak Titmouse",
+   "zh": "纯色冠山雀",
+   "code": "oaktit",
+   "sciName": "Baeolophus inornatus",
+   "family": "Tits, Chickadees, and Titmice",
+   "order": "Passeriformes",
+   "taxonOrder": 22150.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "oaktit-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-06-19",
+     "location": "WindyHillOSP",
+     "file": "oaktit-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Verdin",
+   "zh": "黄头金雀",
+   "code": "verdin",
+   "sciName": "Auriparus flaviceps",
+   "family": "Penduline-Tits",
+   "order": "Passeriformes",
+   "taxonOrder": 22269.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "verdin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bank Swallow",
+   "zh": "崖沙燕",
+   "code": "banswa",
+   "sciName": "Riparia riparia",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24051.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "banswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Tree Swallow",
+   "zh": "双色树燕",
+   "code": "treswa",
+   "sciName": "Tachycineta bicolor",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24064.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "treswa-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-30",
+     "location": "BelleIsleMarshReservation",
+     "file": "treswa-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Violet-green Swallow",
+   "zh": "紫绿树燕",
+   "code": "vigswa",
+   "sciName": "Tachycineta thalassina",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24074.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-20",
+     "location": "SantaClaraSquare",
+     "file": "vigswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Purple Martin",
+   "zh": "紫崖燕",
+   "code": "purmar",
+   "sciName": "Progne subis",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24081.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "purmar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Rough-winged Swallow",
+   "zh": "中北美毛翅燕",
+   "code": "nrwswa",
+   "sciName": "Stelgidopteryx serripennis",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24106.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "nrwswa-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-23",
+     "location": "NavyPier",
+     "file": "nrwswa-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "nrwswa-2.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Barn Swallow",
+   "zh": "家燕",
+   "code": "barswa",
+   "sciName": "Hirundo rustica",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24187.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "barswa-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-21",
+     "location": "AlvisoMarinaCountyPark",
+     "file": "barswa-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "barswa-2.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Cliff Swallow",
+   "zh": "美洲燕",
+   "code": "cliswa",
+   "sciName": "Petrochelidon pyrrhonota",
+   "family": "Swallows",
+   "order": "Passeriformes",
+   "taxonOrder": 24281.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-21",
+     "location": "AlvisoMarinaCountyPark",
+     "file": "cliswa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brown-eared Bulbul",
+   "zh": "栗耳短脚鹎",
+   "code": "brebul1",
+   "sciName": "Hypsipetes amaurotis",
+   "family": "Bulbuls",
+   "order": "Passeriformes",
+   "taxonOrder": 24569.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2024-12-27",
+     "location": "Hangzhou",
+     "file": "brebul1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-whiskered Bulbul",
+   "zh": "红耳鹎",
+   "code": "rewbul",
+   "sciName": "Pycnonotus jocosus",
+   "family": "Bulbuls",
+   "order": "Passeriformes",
+   "taxonOrder": 24733.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-18",
+     "location": "HuntingtonLibrary",
+     "file": "rewbul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bushtit",
+   "zh": "短嘴长尾山雀",
+   "code": "bushti",
+   "sciName": "Psaltriparus minimus",
+   "family": "Long-tailed Tits",
+   "order": "Passeriformes",
+   "taxonOrder": 25253.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-14",
+     "location": "SantaClaraSquare",
+     "file": "bushti-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wrentit",
+   "zh": "鹪雀莺",
+   "code": "wrenti",
+   "sciName": "Chamaea fasciata",
+   "family": "Parrotbills",
+   "order": "Passeriformes",
+   "taxonOrder": 25431.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-19",
+     "location": "WindyHillOSP",
+     "file": "wrenti-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Swinhoe's White-eye",
+   "zh": "暗绿绣眼鸟",
+   "code": "swiwhe1",
+   "sciName": "Zosterops simplex",
+   "family": "White-eyes, Yuhinas, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 25619.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "swiwhe1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Golden-crowned Kinglet",
+   "zh": "金冠戴菊",
+   "code": "gockin",
+   "sciName": "Regulus satrapa",
+   "family": "Kinglets",
+   "order": "Passeriformes",
+   "taxonOrder": 26848.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-04",
+     "location": "GlaciersNP",
+     "file": "gockin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-breasted Nuthatch",
+   "zh": "白胸䴓",
+   "code": "whbnut",
+   "sciName": "Sitta carolinensis",
+   "family": "Nuthatches",
+   "order": "Passeriformes",
+   "taxonOrder": 26889.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "whbnut-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pygmy Nuthatch",
+   "zh": "小䴓",
+   "code": "pygnut",
+   "sciName": "Sitta pygmaea",
+   "family": "Nuthatches",
+   "order": "Passeriformes",
+   "taxonOrder": 26924.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "EganSloughRd",
+     "file": "pygnut-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-breasted Nuthatch",
+   "zh": "红胸䴓",
+   "code": "rebnut",
+   "sciName": "Sitta canadensis",
+   "family": "Nuthatches",
+   "order": "Passeriformes",
+   "taxonOrder": 26937.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-02",
+     "location": "GlaciersNP",
+     "file": "rebnut-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brown Creeper",
+   "zh": "美洲旋木雀",
+   "code": "brncre",
+   "sciName": "Certhia americana",
+   "family": "Treecreepers",
+   "order": "Passeriformes",
+   "taxonOrder": 27026.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-19",
+     "location": "WindyHillOSP",
+     "file": "brncre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Blue-gray Gnatcatcher",
+   "zh": "灰蓝蚋莺",
+   "code": "buggna",
+   "sciName": "Polioptila caerulea",
+   "family": "Gnatcatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 27123.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-25",
+     "location": "MontrosePoint",
+     "file": "buggna-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-tailed Gnatcatcher",
+   "zh": "黑尾蚋莺",
+   "code": "bktgna",
+   "sciName": "Polioptila melanura",
+   "family": "Gnatcatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 27133.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "bktgna-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern House Wren",
+   "zh": "莺鹪鹩",
+   "code": "houwre",
+   "sciName": "Troglodytes aedon",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27191.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "houwre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pacific Wren",
+   "zh": "阿拉斯加鹪鹩",
+   "code": "pacwre1",
+   "sciName": "Troglodytes pacificus",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27288.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-02",
+     "location": "GlaciersNP",
+     "file": "pacwre1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Marsh Wren",
+   "zh": "长嘴沼泽鹪鹩",
+   "code": "marwre",
+   "sciName": "Cistothorus palustris",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27329.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-29",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "marwre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bewick's Wren",
+   "zh": "比氏苇鹪鹩",
+   "code": "bewwre",
+   "sciName": "Thryomanes bewickii",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27362.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "bewwre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Dipper",
+   "zh": "美洲河乌",
+   "code": "amedip",
+   "sciName": "Cinclus mexicanus",
+   "family": "Dippers",
+   "order": "Passeriformes",
+   "taxonOrder": 27668.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "amedip-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "European Starling",
+   "zh": "紫翅椋鸟",
+   "code": "eursta",
+   "sciName": "Sturnus vulgaris",
+   "family": "Starlings",
+   "order": "Passeriformes",
+   "taxonOrder": 27813.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "eursta-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Gray Catbird",
+   "zh": "灰嘲鸫",
+   "code": "grycat",
+   "sciName": "Dumetella carolinensis",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28000.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "grycat-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-27",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "grycat-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Thrasher",
+   "zh": "加州弯嘴嘲鸫",
+   "code": "calthr",
+   "sciName": "Toxostoma redivivum",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28054.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "calthr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Crissal Thrasher",
+   "zh": "栗臀弯嘴嘲鸫",
+   "code": "crithr",
+   "sciName": "Toxostoma crissale",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28062.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "crithr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Mockingbird",
+   "zh": "小嘲鸫",
+   "code": "normoc",
+   "sciName": "Mimus polyglottos",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28114.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "BelleIsleMarshReservation",
+     "file": "normoc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Bluebird",
+   "zh": "西蓝鸲",
+   "code": "wesblu",
+   "sciName": "Sialia mexicana",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28136.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "wesblu-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "wesblu-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Veery",
+   "zh": "棕夜鸫",
+   "code": "veery",
+   "sciName": "Catharus fuscescens",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28313.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "veery-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Gray-cheeked Thrush",
+   "zh": "灰颊夜鸫",
+   "code": "gycthr",
+   "sciName": "Catharus minimus",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28318.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "gycthr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Swainson's Thrush",
+   "zh": "斯氏夜鸫",
+   "code": "swathr",
+   "sciName": "Catharus ustulatus",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28324.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "swathr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Robin",
+   "zh": "旅鸫",
+   "code": "amerob",
+   "sciName": "Turdus migratorius",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28633.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "amerob-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Cedar Waxwing",
+   "zh": "雪松太平鸟",
+   "code": "cedwax",
+   "sciName": "Bombycilla cedrorum",
+   "family": "Waxwings",
+   "order": "Passeriformes",
+   "taxonOrder": 29888.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-29",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "cedwax-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Phainopepla",
+   "zh": "黑丝鹟",
+   "code": "phaino",
+   "sciName": "Phainopepla nitens",
+   "family": "Silky-flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 29909.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-09",
+     "location": "Henderson",
+     "file": "phaino-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "House Sparrow",
+   "zh": "家麻雀",
+   "code": "houspa",
+   "sciName": "Passer domesticus",
+   "family": "Old World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 31534.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "houspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Pipit",
+   "zh": "北美黄腹鹨",
+   "code": "amepip",
+   "sciName": "Anthus rubescens",
+   "family": "Wagtails and Pipits",
+   "order": "Passeriformes",
+   "taxonOrder": 31883.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-03",
+     "location": "GlaciersNP",
+     "file": "amepip-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "House Finch",
+   "zh": "家朱雀",
+   "code": "houfin",
+   "sciName": "Haemorhous mexicanus",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32310.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "houfin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Purple Finch",
+   "zh": "紫朱雀",
+   "code": "purfin",
+   "sciName": "Haemorhous purpureus",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32324.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "purfin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pine Siskin",
+   "zh": "松金翅雀",
+   "code": "pinsis",
+   "sciName": "Spinus pinus",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32595.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "pinsis-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lesser Goldfinch",
+   "zh": "暗背金翅雀",
+   "code": "lesgol",
+   "sciName": "Spinus psaltria",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32609.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-19",
+     "location": "SantaClaraSquare",
+     "file": "lesgol-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Goldfinch",
+   "zh": "北美金翅雀",
+   "code": "amegfi",
+   "sciName": "Spinus tristis",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32617.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "amegfi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Chipping Sparrow",
+   "zh": "棕顶雀鹀",
+   "code": "chispa",
+   "sciName": "Spizella passerina",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 32990.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "chispa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Clay-colored Sparrow",
+   "zh": "褐雀鹀",
+   "code": "clcspa",
+   "sciName": "Spizella pallida",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 32996.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "clcspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Fox Sparrow",
+   "zh": "狐色雀鹀",
+   "code": "foxspa",
+   "sciName": "Passerella iliaca",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33099.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "foxspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Dark-eyed Junco",
+   "zh": "暗眼灯草鹀",
+   "code": "daejun",
+   "sciName": "Junco hyemalis",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33124.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "daejun-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-crowned Sparrow",
+   "zh": "白冠带鹀",
+   "code": "whcspa",
+   "sciName": "Zonotrichia leucophrys",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33187.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-01",
+     "location": "AnoNuevoStatePark",
+     "file": "whcspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Vesper Sparrow",
+   "zh": "栗肩雀鹀",
+   "code": "vesspa",
+   "sciName": "Pooecetes gramineus",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33217.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-03",
+     "location": "GlaciersNP",
+     "file": "vesspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Savannah Sparrow",
+   "zh": "稀树草鹀",
+   "code": "savspa",
+   "sciName": "Passerculus sandwichensis",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33244.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-06-07",
+     "location": "BolsaChicaEcologicalReserve",
+     "file": "savspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Song Sparrow",
+   "zh": "歌带鹀",
+   "code": "sonspa",
+   "sciName": "Melospiza melodia",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33277.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "sonspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lincoln's Sparrow",
+   "zh": "林氏带鹀",
+   "code": "linspa",
+   "sciName": "Melospiza lincolnii",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33310.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "linspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Swamp Sparrow",
+   "zh": "沼泽带鹀",
+   "code": "swaspa",
+   "sciName": "Melospiza georgiana",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33315.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-30",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "swaspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "California Towhee",
+   "zh": "加州唧鹀",
+   "code": "caltow",
+   "sciName": "Melozone crissalis",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33350.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-18",
+     "location": "Milpitas",
+     "file": "caltow-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "caltow-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Green-tailed Towhee",
+   "zh": "绿尾唧鹀",
+   "code": "gnttow",
+   "sciName": "Pipilo chlorurus",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33385.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-05",
+     "location": "SequoiaNP",
+     "file": "gnttow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Spotted Towhee",
+   "zh": "斑唧鹀",
+   "code": "spotow",
+   "sciName": "Pipilo maculatus",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33386.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "spotow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-breasted Chat",
+   "zh": "黄胸大䳭莺",
+   "code": "yebcha",
+   "sciName": "Icteria virens",
+   "family": "Yellow-breasted Chat",
+   "order": "Passeriformes",
+   "taxonOrder": 33559.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "yebcha-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-headed Blackbird",
+   "zh": "黄头黑鹂",
+   "code": "yehbla",
+   "sciName": "Xanthocephalus xanthocephalus",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33563.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-05",
+     "location": "SonnyBoonMemorialTrail",
+     "file": "yehbla-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bullock's Oriole",
+   "zh": "布氏拟鹂",
+   "code": "bulori",
+   "sciName": "Icterus bullockii",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33736.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "bulori-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Baltimore Oriole",
+   "zh": "橙腹拟鹂",
+   "code": "balori",
+   "sciName": "Icterus galbula",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33770.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-27",
+     "location": "GreatMeadowsNWRConcordUnit",
+     "file": "balori-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-winged Blackbird",
+   "zh": "红翅黑鹂",
+   "code": "rewbla",
+   "sciName": "Agelaius phoeniceus",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33779.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "rewbla-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Tricolored Blackbird",
+   "zh": "三色黑鹂",
+   "code": "tribla",
+   "sciName": "Agelaius tricolor",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33807.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-17",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "tribla-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brown-headed Cowbird",
+   "zh": "褐头牛鹂",
+   "code": "bnhcow",
+   "sciName": "Molothrus ater",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33833.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "bnhcow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Brewer's Blackbird",
+   "zh": "蓝头黑鹂",
+   "code": "brebla",
+   "sciName": "Euphagus cyanocephalus",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33851.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "brebla-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Grackle",
+   "zh": "拟八哥",
+   "code": "comgra",
+   "sciName": "Quiscalus quiscula",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33853.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "comgra-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Great-tailed Grackle",
+   "zh": "大尾拟八哥",
+   "code": "grtgra",
+   "sciName": "Quiscalus mexicanus",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33864.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-07",
+     "location": "DeathValleyNP",
+     "file": "grtgra-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Tennessee Warbler",
+   "zh": "灰冠虫森莺",
+   "code": "tenwar",
+   "sciName": "Leiothlypis peregrina",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 33972.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "tenwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Orange-crowned Warbler",
+   "zh": "橙冠虫森莺",
+   "code": "orcwar",
+   "sciName": "Leiothlypis celata",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 33973.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "orcwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lucy's Warbler",
+   "zh": "赤腰虫森莺",
+   "code": "lucwar",
+   "sciName": "Leiothlypis luciae",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 33980.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "lucwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "MacGillivray's Warbler",
+   "zh": "灰头地莺",
+   "code": "macwar",
+   "sciName": "Geothlypis tolmiei",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34005.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-07-04",
+     "location": "GlaciersNP",
+     "file": "macwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Yellowthroat",
+   "zh": "黄喉地莺",
+   "code": "comyel",
+   "sciName": "Geothlypis trichas",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34028.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-21",
+     "location": "AlvisoMarinaCountyPark",
+     "file": "comyel-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "American Redstart",
+   "zh": "橙尾鸲莺",
+   "code": "amered",
+   "sciName": "Setophaga ruticilla",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34058.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "amered-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Magnolia Warbler",
+   "zh": "纹胸林莺",
+   "code": "magwar",
+   "sciName": "Setophaga magnolia",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34079.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "magwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bay-breasted Warbler",
+   "zh": "栗胸林莺",
+   "code": "babwar",
+   "sciName": "Setophaga castanea",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34083.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "babwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Blackburnian Warbler",
+   "zh": "橙胸林莺",
+   "code": "bkbwar",
+   "sciName": "Setophaga fusca",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34084.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-25",
+     "location": "MontrosePoint",
+     "file": "bkbwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Yellow Warbler",
+   "zh": "北美黄林莺",
+   "code": "yelwar1",
+   "sciName": "Setophaga aestiva",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34087.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "yelwar1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Chestnut-sided Warbler",
+   "zh": "栗胁林莺",
+   "code": "chswar",
+   "sciName": "Setophaga pensylvanica",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34133.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "chswar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Blackpoll Warbler",
+   "zh": "白颊林莺",
+   "code": "bkpwar",
+   "sciName": "Setophaga striata",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34138.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "bkpwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-throated Blue Warbler",
+   "zh": "黑喉蓝林莺",
+   "code": "btbwar",
+   "sciName": "Setophaga caerulescens",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34141.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "btbwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Palm Warbler",
+   "zh": "棕榈林莺",
+   "code": "palwar",
+   "sciName": "Setophaga palmarum",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34148.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "palwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Yellow-rumped Warbler",
+   "zh": "黄腰林莺",
+   "code": "yerwar",
+   "sciName": "Setophaga coronata",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34159.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "yerwar-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-07-04",
+     "location": "GlaciersNP",
+     "file": "yerwar-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canada Warbler",
+   "zh": "加拿大威森莺",
+   "code": "canwar",
+   "sciName": "Cardellina canadensis",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34344.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "canwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wilson's Warbler",
+   "zh": "黑头威森莺",
+   "code": "wlswar",
+   "sciName": "Cardellina pusilla",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34346.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-06",
+     "location": "KingsCanyonNP",
+     "file": "wlswar-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "wlswar-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Scarlet Tanager",
+   "zh": "猩红丽唐纳雀",
+   "code": "scatan",
+   "sciName": "Piranga olivacea",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34436.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "scatan-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Tanager",
+   "zh": "黄腹丽唐纳雀",
+   "code": "westan",
+   "sciName": "Piranga ludoviciana",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34439.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-16",
+     "location": "FosterCity",
+     "file": "westan-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Cardinal",
+   "zh": "主红雀",
+   "code": "norcar",
+   "sciName": "Cardinalis cardinalis",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34515.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-24",
+     "location": "MontrosePoint",
+     "file": "norcar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-headed Grosbeak",
+   "zh": "黑头斑翅雀",
+   "code": "bkhgro",
+   "sciName": "Pheucticus melanocephalus",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34559.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-10",
+     "location": "Henderson",
+     "file": "bkhgro-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lazuli Bunting",
+   "zh": "白腹蓝彩鹀",
+   "code": "lazbun",
+   "sciName": "Passerina amoena",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34606.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-05-08",
+     "location": "DeathValleyNP",
+     "file": "lazbun-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-05-22",
+     "location": "JosephDGrantCountyPark",
+     "file": "lazbun-1.jpg"
+    }
+   ]
+  }
+ ]
+}
