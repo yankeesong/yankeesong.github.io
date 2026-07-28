@@ -12,6 +12,7 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - ".lycheeignore"
       - "!.github/workflows/prettier.yml"
   pull_request:
     branches:
@@ -24,6 +25,7 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - ".lycheeignore"
       - "!.github/workflows/prettier.yml"
 
 jobs:
