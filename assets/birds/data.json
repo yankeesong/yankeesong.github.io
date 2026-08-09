@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-28T01:19:15+00:00",
+ "generated_at": "2026-08-09T22:32:23+00:00",
  "stats": {
-  "species": 252,
-  "photos": 282,
-  "locations": 44,
-  "families": 59
+  "species": 271,
+  "photos": 303,
+  "locations": 46,
+  "families": 62
  },
  "locations": {
   "AdobeCreek": {
@@ -90,6 +90,12 @@
    "lon": -80.6131,
    "display": "Everglades NP, FL",
    "approximate": false
+  },
+  "FarallonIslands": {
+   "lat": 37.7333,
+   "lon": -123.0344,
+   "display": "Farallon Islands, San Francisco, CA",
+   "approximate": true
   },
   "FosterCity": {
    "lat": 37.5585,
@@ -204,6 +210,12 @@
    "lon": -122.4748,
    "display": "Pillar Point Harbor, Half Moon Bay, CA",
    "approximate": false
+  },
+  "PinnaclesNP": {
+   "lat": 36.4863,
+   "lon": -121.1711,
+   "display": "Pinnacles NP, CA",
+   "approximate": true
   },
   "SantaClaraSquare": {
    "lat": 37.4036,
@@ -838,6 +850,12 @@
      "date": "2021-03-13",
      "location": "Boston",
      "file": "wiltur-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-08-06",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "wiltur-1.jpg"
     }
    ]
   },
@@ -1252,6 +1270,12 @@
      "date": "2026-07-19",
      "location": "ScorpionAnchorage",
      "file": "blkoys-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "blkoys-1.jpg"
     }
    ]
   },
@@ -1432,6 +1456,23 @@
    ]
   },
   {
+   "en": "Red-necked Phalarope",
+   "zh": "红颈瓣蹼鹬",
+   "code": "renpha",
+   "sciName": "Phalaropus lobatus",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6121.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "renpha-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Spotted Sandpiper",
    "zh": "斑腹矶鹬",
    "code": "sposan",
@@ -1451,6 +1492,23 @@
      "date": "2026-05-24",
      "location": "MontrosePoint",
      "file": "sposan-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lesser Yellowlegs",
+   "zh": "小黄脚鹬",
+   "code": "lesyel",
+   "sciName": "Tringa flavipes",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6145.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-06",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "lesyel-0.jpg"
     }
    ]
   },
@@ -1654,6 +1712,91 @@
    ]
   },
   {
+   "en": "Parasitic Jaeger",
+   "zh": "短尾贼鸥",
+   "code": "parjae",
+   "sciName": "Stercorarius parasiticus",
+   "family": "Skuas and Jaegers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6361.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "parjae-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pomarine Jaeger",
+   "zh": "中贼鸥",
+   "code": "pomjae",
+   "sciName": "Stercorarius pomarinus",
+   "family": "Skuas and Jaegers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6363.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "pomjae-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "South Polar Skua",
+   "zh": "南极贼鸥",
+   "code": "sopsku1",
+   "sciName": "Stercorarius maccormicki",
+   "family": "Skuas and Jaegers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6372.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "sopsku1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Rhinoceros Auklet",
+   "zh": "角嘴海雀",
+   "code": "rhiauk",
+   "sciName": "Cerorhinca monocerata",
+   "family": "Auks, Murres, and Puffins",
+   "order": "Charadriiformes",
+   "taxonOrder": 6377.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "rhiauk-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Tufted Puffin",
+   "zh": "簇羽海鹦",
+   "code": "tufpuf",
+   "sciName": "Fratercula cirrhata",
+   "family": "Auks, Murres, and Puffins",
+   "order": "Charadriiformes",
+   "taxonOrder": 6378.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "tufpuf-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Pigeon Guillemot",
    "zh": "海鸽",
    "code": "piggui",
@@ -1673,6 +1816,40 @@
      "date": "2026-07-12",
      "location": "PillarPointHarbor",
      "file": "piggui-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Common Murre",
+   "zh": "崖海鸦",
+   "code": "commur",
+   "sciName": "Uria aalge",
+   "family": "Auks, Murres, and Puffins",
+   "order": "Charadriiformes",
+   "taxonOrder": 6424.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "commur-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Scripps's Murrelet",
+   "zh": "斯氏海雀",
+   "code": "xanmur2",
+   "sciName": "Synthliboramphus scrippsi",
+   "family": "Auks, Murres, and Puffins",
+   "order": "Charadriiformes",
+   "taxonOrder": 6437.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "xanmur2-0.jpg"
     }
    ]
   },
@@ -2058,6 +2235,125 @@
    ]
   },
   {
+   "en": "Black-footed Albatross",
+   "zh": "黑脚信天翁",
+   "code": "bkfalb",
+   "sciName": "Phoebastria nigripes",
+   "family": "Albatrosses",
+   "order": "Procellariiformes",
+   "taxonOrder": 6988.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "bkfalb-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ashy Storm-Petrel",
+   "zh": "灰叉尾海燕",
+   "code": "asspet",
+   "sciName": "Hydrobates homochroa",
+   "family": "Northern Storm-Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7063.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "asspet-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Storm-Petrel",
+   "zh": "美洲黑叉尾海燕",
+   "code": "bkspet",
+   "sciName": "Hydrobates melania",
+   "family": "Northern Storm-Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7074.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "bkspet-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Fulmar",
+   "zh": "暴雪鹱",
+   "code": "norful",
+   "sciName": "Fulmarus glacialis",
+   "family": "Shearwaters and Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7090.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "norful-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pink-footed Shearwater",
+   "zh": "粉脚鹱",
+   "code": "pifshe",
+   "sciName": "Ardenna creatopus",
+   "family": "Shearwaters and Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7205.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "pifshe-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Buller's Shearwater",
+   "zh": "灰背鹱",
+   "code": "bulshe",
+   "sciName": "Ardenna bulleri",
+   "family": "Shearwaters and Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7212.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "bulshe-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sooty Shearwater",
+   "zh": "灰鹱",
+   "code": "sooshe",
+   "sciName": "Ardenna grisea",
+   "family": "Shearwaters and Petrels",
+   "order": "Procellariiformes",
+   "taxonOrder": 7213.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-08",
+     "location": "FarallonIslands",
+     "file": "sooshe-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Black-vented Shearwater",
    "zh": "黑臀鹱",
    "code": "bkvshe",
@@ -2330,6 +2626,23 @@
    ]
   },
   {
+   "en": "American White Pelican",
+   "zh": "美洲鹈鹕",
+   "code": "amwpel",
+   "sciName": "Pelecanus erythrorhynchos",
+   "family": "Pelicans",
+   "order": "Pelecaniformes",
+   "taxonOrder": 7791.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-06",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "amwpel-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Brown Pelican",
    "zh": "褐鹈鹕",
    "code": "brnpel",
@@ -2423,6 +2736,23 @@
      "date": "2026-05-30",
      "location": "BelleIsleMarshReservation",
      "file": "osprey-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-tailed Kite",
+   "zh": "白尾鸢",
+   "code": "whtkit",
+   "sciName": "Elanus leucurus",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 7843.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-06",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "whtkit-0.jpg"
     }
    ]
   },
@@ -3525,6 +3855,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "bktgna-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canyon Wren",
+   "zh": "墨西哥鹪鹩",
+   "code": "canwre",
+   "sciName": "Catherpes mexicanus",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27184.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-02",
+     "location": "PinnaclesNP",
+     "file": "canwre-0.jpg"
     }
    ]
   },
