@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-09T22:32:23+00:00",
+ "generated_at": "2026-08-17T07:14:33+00:00",
  "stats": {
-  "species": 271,
-  "photos": 303,
-  "locations": 46,
+  "species": 272,
+  "photos": 308,
+  "locations": 49,
   "families": 62
  },
  "locations": {
@@ -65,6 +65,12 @@
    "lat": 37.588,
    "lon": -122.3273,
    "display": "Coyote Point Recreation Area, San Mateo, CA",
+   "approximate": false
+  },
+  "CrissyField": {
+   "lat": 37.8046,
+   "lon": -122.4666,
+   "display": "Crissy Field, San Francisco, CA",
    "approximate": false
   },
   "DeathValleyNP": {
@@ -163,6 +169,12 @@
    "display": "Kings Canyon NP, CA",
    "approximate": false
   },
+  "LakeMerced": {
+   "lat": 37.7275,
+   "lon": -122.4978,
+   "display": "Lake Merced, San Francisco, CA",
+   "approximate": false
+  },
   "London": {
    "lat": 51.5074,
    "lon": -0.1278,
@@ -216,6 +228,12 @@
    "lon": -121.1711,
    "display": "Pinnacles NP, CA",
    "approximate": true
+  },
+  "RodeoLagoon": {
+   "lat": 37.8307,
+   "lon": -122.5318,
+   "display": "Rodeo Lagoon, Marin Headlands, CA",
+   "approximate": false
   },
   "SantaClaraSquare": {
    "lat": 37.4036,
@@ -1668,6 +1686,12 @@
      "date": "2026-07-26",
      "location": "CoyotePointRecreationArea",
      "file": "leasan-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-08-15",
+     "location": "RodeoLagoon",
+     "file": "leasan-1.jpg"
     }
    ]
   },
@@ -2191,6 +2215,23 @@
      "date": "2026-06-07",
      "location": "BolsaChicaEcologicalReserve",
      "file": "wesgre-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Clark's Grebe",
+   "zh": "克氏䴙䴘",
+   "code": "clagre",
+   "sciName": "Aechmophorus clarkii",
+   "family": "Grebes",
+   "order": "Podicipediformes",
+   "taxonOrder": 6891.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-15",
+     "location": "LakeMerced",
+     "file": "clagre-0.jpg"
     }
    ]
   },
@@ -2810,6 +2851,18 @@
      "date": "2026-05-17",
      "location": "CoyoteHillsRegionalPark",
      "file": "reshaw-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-08-09",
+     "location": "LakeMerced",
+     "file": "reshaw-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-08-15",
+     "location": "CrissyField",
+     "file": "reshaw-2.jpg"
     }
    ]
   },
@@ -2844,6 +2897,12 @@
      "date": "2026-05-17",
      "location": "CoyoteHillsRegionalPark",
      "file": "rethaw-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-08-15",
+     "location": "CrissyField",
+     "file": "rethaw-1.jpg"
     }
    ]
   },
