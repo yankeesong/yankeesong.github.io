@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-17T07:14:33+00:00",
+ "generated_at": "2026-08-31T04:41:26+00:00",
  "stats": {
-  "species": 272,
-  "photos": 308,
-  "locations": 49,
-  "families": 62
+  "species": 277,
+  "photos": 284,
+  "locations": 51,
+  "families": 63
  },
  "locations": {
   "AdobeCreek": {
@@ -175,6 +175,12 @@
    "display": "Lake Merced, San Francisco, CA",
    "approximate": false
   },
+  "LickMillPark": {
+   "lat": 37.4036,
+   "lon": -121.9569,
+   "display": "Lick Mill Park, Santa Clara, CA",
+   "approximate": false
+  },
   "London": {
    "lat": 51.5074,
    "lon": -0.1278,
@@ -185,12 +191,6 @@
    "lat": 25.7617,
    "lon": -80.1918,
    "display": "Miami, FL",
-   "approximate": false
-  },
-  "Milpitas": {
-   "lat": 37.4323,
-   "lon": -121.8996,
-   "display": "Milpitas, CA",
    "approximate": false
   },
   "Monterey": {
@@ -209,6 +209,18 @@
    "lat": 41.8917,
    "lon": -87.6086,
    "display": "Navy Pier, Chicago, IL",
+   "approximate": false
+  },
+  "OceanBeachSF": {
+   "lat": 37.7562,
+   "lon": -122.5102,
+   "display": "Ocean Beach, San Francisco, CA",
+   "approximate": false
+  },
+  "PajaroDunesShorebirdsPond": {
+   "lat": 36.8733,
+   "lon": -121.8212,
+   "display": "Pajaro Dunes Shorebirds Pond, Santa Cruz County, CA",
    "approximate": false
   },
   "Pasadena": {
@@ -233,6 +245,12 @@
    "lat": 37.8307,
    "lon": -122.5318,
    "display": "Rodeo Lagoon, Marin Headlands, CA",
+   "approximate": false
+  },
+  "SaltPondA3W": {
+   "lat": 37.4325,
+   "lon": -122.0395,
+   "display": "Salt Pond A3W, Santa Clara County, CA",
    "approximate": false
   },
   "SantaClaraSquare": {
@@ -263,12 +281,6 @@
    "lat": 31.2989,
    "lon": 120.5853,
    "display": "Suzhou, Jiangsu, CN",
-   "approximate": false
-  },
-  "WilderRanchStatePark": {
-   "lat": 36.9947,
-   "lon": -122.0864,
-   "display": "Wilder Ranch State Park, CA",
    "approximate": false
   },
   "WindyHillOSP": {
@@ -416,15 +428,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2020-02-22",
-     "location": "London",
-     "file": "mutswa-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-30",
      "location": "GreatMeadowsNWRConcordUnit",
-     "file": "mutswa-1.jpg"
+     "file": "mutswa-0.jpg"
     }
    ]
   },
@@ -592,15 +598,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-17",
-     "location": "CoyoteHillsRegionalPark",
-     "file": "gadwal-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-21",
      "location": "AlvisoMarinaCountyPark",
-     "file": "gadwal-1.jpg"
+     "file": "gadwal-0.jpg"
     }
    ]
   },
@@ -825,15 +825,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-01",
-     "location": "WilderRanchStatePark",
-     "file": "calqua-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-06-19",
      "location": "WindyHillOSP",
-     "file": "calqua-1.jpg"
+     "file": "calqua-0.jpg"
     }
    ]
   },
@@ -865,15 +859,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2021-03-13",
-     "location": "Boston",
-     "file": "wiltur-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-08-06",
      "location": "CoyoteHillsRegionalPark",
-     "file": "wiltur-1.jpg"
+     "file": "wiltur-0.jpg"
     }
    ]
   },
@@ -1075,15 +1063,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-16",
-     "location": "FosterCity",
-     "file": "annhum-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
-     "file": "annhum-1.jpg"
+     "file": "annhum-0.jpg"
     }
    ]
   },
@@ -1183,8 +1165,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-10",
-     "location": "Henderson",
+     "date": "2026-08-21",
+     "location": "CoyoteHillsRegionalPark",
      "file": "comgal1-0.jpg"
     }
    ]
@@ -1285,15 +1267,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-19",
-     "location": "ScorpionAnchorage",
-     "file": "blkoys-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-08-08",
      "location": "FarallonIslands",
-     "file": "blkoys-1.jpg"
+     "file": "blkoys-0.jpg"
     }
    ]
   },
@@ -1308,15 +1284,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-07",
-     "location": "BolsaChicaEcologicalReserve",
-     "file": "bkbplo-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-26",
      "location": "CoyotePointRecreationArea",
-     "file": "bkbplo-1.jpg"
+     "file": "bkbplo-0.jpg"
     }
    ]
   },
@@ -1368,6 +1338,23 @@
      "date": "2026-05-24",
      "location": "MontrosePoint",
      "file": "pipplo-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Snowy Plover",
+   "zh": "雪鸻",
+   "code": "snoplo5",
+   "sciName": "Anarhynchus nivosus",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5941.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-24",
+     "location": "OceanBeachSF",
+     "file": "snoplo5-0.jpg"
     }
    ]
   },
@@ -1501,15 +1488,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-08",
-     "location": "DeathValleyNP",
-     "file": "sposan-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-24",
      "location": "MontrosePoint",
-     "file": "sposan-1.jpg"
+     "file": "sposan-0.jpg"
     }
    ]
   },
@@ -1558,15 +1539,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-07",
-     "location": "BolsaChicaEcologicalReserve",
-     "file": "greyel-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-26",
      "location": "CoyotePointRecreationArea",
-     "file": "greyel-1.jpg"
+     "file": "greyel-0.jpg"
     }
    ]
   },
@@ -1683,15 +1658,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-26",
-     "location": "CoyotePointRecreationArea",
-     "file": "leasan-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-08-15",
      "location": "RodeoLagoon",
-     "file": "leasan-1.jpg"
+     "file": "leasan-0.jpg"
     }
    ]
   },
@@ -1706,15 +1675,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-07",
-     "location": "BolsaChicaEcologicalReserve",
-     "file": "wessan-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-26",
      "location": "CoyotePointRecreationArea",
-     "file": "wessan-1.jpg"
+     "file": "wessan-0.jpg"
     }
    ]
   },
@@ -1831,15 +1794,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-01",
-     "location": "AnoNuevoStatePark",
-     "file": "piggui-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-12",
      "location": "PillarPointHarbor",
-     "file": "piggui-1.jpg"
+     "file": "piggui-0.jpg"
     }
    ]
   },
@@ -1922,15 +1879,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-28",
-     "location": "DevilsSlideTrail",
-     "file": "heegul-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-12",
      "location": "PillarPointHarbor",
-     "file": "heegul-1.jpg"
+     "file": "heegul-0.jpg"
     }
    ]
   },
@@ -2122,6 +2073,23 @@
    ]
   },
   {
+   "en": "Common Tern",
+   "zh": "普通燕鸥",
+   "code": "comter",
+   "sciName": "Sterna hirundo",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6748.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-28",
+     "location": "SaltPondA3W",
+     "file": "comter-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Elegant Tern",
    "zh": "美洲凤头燕鸥",
    "code": "eleter1",
@@ -2166,21 +2134,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-10",
-     "location": "Henderson",
-     "file": "pibgre-0.jpg"
-    },
-    {
-     "n": 1,
-     "date": "2026-05-22",
-     "location": "JosephDGrantCountyPark",
-     "file": "pibgre-1.jpg"
-    },
-    {
-     "n": 2,
      "date": "2026-06-07",
      "location": "BolsaChicaEcologicalReserve",
-     "file": "pibgre-2.jpg"
+     "file": "pibgre-0.jpg"
     }
    ]
   },
@@ -2263,15 +2219,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-01",
-     "location": "AnoNuevoStatePark",
-     "file": "comloo-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-12",
      "location": "PillarPointHarbor",
-     "file": "comloo-1.jpg"
+     "file": "comloo-0.jpg"
     }
    ]
   },
@@ -2408,6 +2358,23 @@
      "date": "2026-07-19",
      "location": "ScorpionAnchorage",
      "file": "bkvshe-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Northern Gannet",
+   "zh": "北鲣鸟",
+   "code": "norgan",
+   "sciName": "Morus bassanus",
+   "family": "Boobies and Gannets",
+   "order": "Suliformes",
+   "taxonOrder": 7333.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-28",
+     "location": "PillarPointHarbor",
+     "file": "norgan-0.jpg"
     }
    ]
   },
@@ -2694,15 +2661,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2025-06-09",
-     "location": "Monterey",
-     "file": "brnpel-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
-     "file": "brnpel-1.jpg"
+     "file": "brnpel-0.jpg"
     }
    ]
   },
@@ -2768,15 +2729,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-09",
-     "location": "Henderson",
-     "file": "osprey-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-30",
      "location": "BelleIsleMarshReservation",
-     "file": "osprey-1.jpg"
+     "file": "osprey-0.jpg"
     }
    ]
   },
@@ -2794,6 +2749,23 @@
      "date": "2026-08-06",
      "location": "CoyoteHillsRegionalPark",
      "file": "whtkit-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Cooper's Hawk",
+   "zh": "库氏鹰",
+   "code": "coohaw",
+   "sciName": "Astur cooperii",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8278.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-17",
+     "location": "LakeMerced",
+     "file": "coohaw-0.jpg"
     }
    ]
   },
@@ -2825,15 +2797,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-30",
-     "location": "GreatMeadowsNWRConcordUnit",
-     "file": "baleag-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
-     "file": "baleag-1.jpg"
+     "file": "baleag-0.jpg"
     }
    ]
   },
@@ -2848,21 +2814,15 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-17",
-     "location": "CoyoteHillsRegionalPark",
+     "date": "2026-08-09",
+     "location": "LakeMerced",
      "file": "reshaw-0.jpg"
     },
     {
      "n": 1,
-     "date": "2026-08-09",
-     "location": "LakeMerced",
-     "file": "reshaw-1.jpg"
-    },
-    {
-     "n": 2,
      "date": "2026-08-15",
      "location": "CrissyField",
-     "file": "reshaw-2.jpg"
+     "file": "reshaw-1.jpg"
     }
    ]
   },
@@ -2903,6 +2863,12 @@
      "date": "2026-08-15",
      "location": "CrissyField",
      "file": "rethaw-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-08-30",
+     "location": "PajaroDunesShorebirdsPond",
+     "file": "rethaw-2.jpg"
     }
    ]
   },
@@ -3257,15 +3223,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-07",
-     "location": "DeathValleyNP",
-     "file": "weskin-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-22",
      "location": "JosephDGrantCountyPark",
-     "file": "weskin-1.jpg"
+     "file": "weskin-0.jpg"
     }
    ]
   },
@@ -3535,15 +3495,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-22",
-     "location": "JosephDGrantCountyPark",
-     "file": "oaktit-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-06-19",
      "location": "WindyHillOSP",
-     "file": "oaktit-1.jpg"
+     "file": "oaktit-0.jpg"
     }
    ]
   },
@@ -3649,21 +3603,15 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-07",
-     "location": "DeathValleyNP",
+     "date": "2026-05-23",
+     "location": "NavyPier",
      "file": "nrwswa-0.jpg"
     },
     {
      "n": 1,
-     "date": "2026-05-23",
-     "location": "NavyPier",
-     "file": "nrwswa-1.jpg"
-    },
-    {
-     "n": 2,
      "date": "2026-05-24",
      "location": "MontrosePoint",
-     "file": "nrwswa-2.jpg"
+     "file": "nrwswa-1.jpg"
     }
    ]
   },
@@ -3678,21 +3626,15 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-17",
-     "location": "CoyoteHillsRegionalPark",
+     "date": "2026-05-21",
+     "location": "AlvisoMarinaCountyPark",
      "file": "barswa-0.jpg"
     },
     {
      "n": 1,
-     "date": "2026-05-21",
-     "location": "AlvisoMarinaCountyPark",
-     "file": "barswa-1.jpg"
-    },
-    {
-     "n": 2,
      "date": "2026-05-24",
      "location": "MontrosePoint",
-     "file": "barswa-2.jpg"
+     "file": "barswa-1.jpg"
     }
    ]
   },
@@ -4047,15 +3989,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-24",
-     "location": "MontrosePoint",
-     "file": "grycat-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-27",
      "location": "GreatMeadowsNWRConcordUnit",
-     "file": "grycat-1.jpg"
+     "file": "grycat-0.jpg"
     }
    ]
   },
@@ -4121,15 +4057,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-05",
-     "location": "SequoiaNP",
-     "file": "wesblu-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-16",
      "location": "FosterCity",
-     "file": "wesblu-1.jpg"
+     "file": "wesblu-0.jpg"
     }
    ]
   },
@@ -4535,15 +4465,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-18",
-     "location": "Milpitas",
-     "file": "caltow-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-22",
      "location": "JosephDGrantCountyPark",
-     "file": "caltow-1.jpg"
+     "file": "caltow-0.jpg"
     }
    ]
   },
@@ -5000,15 +4924,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-24",
-     "location": "MontrosePoint",
-     "file": "yerwar-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-07-04",
      "location": "GlaciersNP",
-     "file": "yerwar-1.jpg"
+     "file": "yerwar-0.jpg"
     }
    ]
   },
@@ -5040,15 +4958,26 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-06",
-     "location": "KingsCanyonNP",
-     "file": "wlswar-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-24",
      "location": "MontrosePoint",
-     "file": "wlswar-1.jpg"
+     "file": "wlswar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Summer Tanager",
+   "zh": "玫红丽唐纳雀",
+   "code": "sumtan",
+   "sciName": "Piranga rubra",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34432.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-08-30",
+     "location": "LickMillPark",
+     "file": "sumtan-0.jpg"
     }
    ]
   },
@@ -5131,15 +5060,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-08",
-     "location": "DeathValleyNP",
-     "file": "lazbun-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-05-22",
      "location": "JosephDGrantCountyPark",
-     "file": "lazbun-1.jpg"
+     "file": "lazbun-0.jpg"
     }
    ]
   }
