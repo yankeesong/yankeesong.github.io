@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-09T06:21:28+00:00",
+ "generated_at": "2026-09-09T06:29:49+00:00",
  "stats": {
   "species": 280,
-  "photos": 291,
-  "locations": 55,
+  "photos": 287,
+  "locations": 54,
   "families": 64
  },
  "locations": {
@@ -215,12 +215,6 @@
    "lat": 25.7617,
    "lon": -80.1918,
    "display": "Miami, FL",
-   "approximate": false
-  },
-  "Monterey": {
-   "lat": 36.6002,
-   "lon": -121.8947,
-   "display": "Monterey, CA",
    "approximate": false
   },
   "MontrosePoint": {
@@ -642,12 +636,6 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "amewig-0.jpg"
-    },
-    {
-     "n": 1,
-     "date": "2026-09-06",
-     "location": "FirstBeachLaPush",
-     "file": "amewig-1.jpg"
     }
    ]
   },
@@ -1943,15 +1931,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-01",
-     "location": "AnoNuevoStatePark",
-     "file": "mewgul2-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-09-07",
      "location": "DiscoveryPark",
-     "file": "mewgul2-1.jpg"
+     "file": "mewgul2-0.jpg"
     }
    ]
   },
@@ -2034,15 +2016,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2019-08-28",
-     "location": "Monterey",
-     "file": "glwgul-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-09-06",
      "location": "FirstBeachLaPush",
-     "file": "glwgul-1.jpg"
+     "file": "glwgul-0.jpg"
     }
    ]
   },
@@ -2482,15 +2458,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-01",
-     "location": "AnoNuevoStatePark",
-     "file": "pelcor-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-09-06",
      "location": "FirstBeachLaPush",
-     "file": "pelcor-1.jpg"
+     "file": "pelcor-0.jpg"
     }
    ]
   },
