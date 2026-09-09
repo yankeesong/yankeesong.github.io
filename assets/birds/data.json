@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-31T04:41:26+00:00",
+ "generated_at": "2026-09-09T06:21:28+00:00",
  "stats": {
-  "species": 277,
-  "photos": 284,
-  "locations": 51,
-  "families": 63
+  "species": 280,
+  "photos": 291,
+  "locations": 55,
+  "families": 64
  },
  "locations": {
   "AdobeCreek": {
@@ -85,6 +85,18 @@
    "display": "Devil's Slide Trail, San Mateo County, CA",
    "approximate": false
   },
+  "DiscoveryPark": {
+   "lat": 47.6618,
+   "lon": -122.4219,
+   "display": "Discovery Park, Seattle, WA",
+   "approximate": false
+  },
+  "DungenessNWR": {
+   "lat": 48.1629,
+   "lon": -123.159,
+   "display": "Dungeness NWR, Clallam County, WA",
+   "approximate": false
+  },
   "EganSloughRd": {
    "lat": 48.1765,
    "lon": -114.199,
@@ -102,6 +114,12 @@
    "lon": -123.0344,
    "display": "Farallon Islands, San Francisco, CA",
    "approximate": true
+  },
+  "FirstBeachLaPush": {
+   "lat": 47.9022,
+   "lon": -124.6313,
+   "display": "First Beach, La Push, WA",
+   "approximate": false
   },
   "FosterCity": {
    "lat": 37.5585,
@@ -155,6 +173,12 @@
    "lat": 34.1281,
    "lon": -118.1123,
    "display": "The Huntington Library, San Marino, CA",
+   "approximate": false
+  },
+  "HurricaneRidge": {
+   "lat": 48.0957,
+   "lon": -123.3055,
+   "display": "Hurricane Ridge, Olympic NP, WA",
    "approximate": false
   },
   "JosephDGrantCountyPark": {
@@ -618,6 +642,12 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "amewig-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-06",
+     "location": "FirstBeachLaPush",
+     "file": "amewig-1.jpg"
     }
    ]
   },
@@ -737,6 +767,23 @@
      "date": "2018-12-24",
      "location": "Suzhou",
      "file": "compoc-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Harlequin Duck",
+   "zh": "丑鸭",
+   "code": "harduc",
+   "sciName": "Histrionicus histrionicus",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 727.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-06",
+     "location": "FirstBeachLaPush",
+     "file": "harduc-0.jpg"
     }
    ]
   },
@@ -1899,6 +1946,12 @@
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
      "file": "mewgul2-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-07",
+     "location": "DiscoveryPark",
+     "file": "mewgul2-1.jpg"
     }
    ]
   },
@@ -1984,6 +2037,12 @@
      "date": "2019-08-28",
      "location": "Monterey",
      "file": "glwgul-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-06",
+     "location": "FirstBeachLaPush",
+     "file": "glwgul-1.jpg"
     }
    ]
   },
@@ -2426,6 +2485,12 @@
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
      "file": "pelcor-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-06",
+     "location": "FirstBeachLaPush",
+     "file": "pelcor-1.jpg"
     }
    ]
   },
@@ -2890,6 +2955,23 @@
    ]
   },
   {
+   "en": "Belted Kingfisher",
+   "zh": "白腹鱼狗",
+   "code": "belkin1",
+   "sciName": "Megaceryle alcyon",
+   "family": "Kingfishers",
+   "order": "Coraciiformes",
+   "taxonOrder": 10306.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-04",
+     "location": "DungenessNWR",
+     "file": "belkin1-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Red-breasted Sapsucker",
    "zh": "红胸吸汁啄木鸟",
    "code": "rebsap",
@@ -3311,6 +3393,23 @@
      "date": "2026-05-24",
      "location": "MontrosePoint",
      "file": "reevir1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canada Jay",
+   "zh": "灰噪鸦",
+   "code": "gryjay",
+   "sciName": "Perisoreus canadensis",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21181.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-04",
+     "location": "HurricaneRidge",
+     "file": "gryjay-0.jpg"
     }
    ]
   },
