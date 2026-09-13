@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-09T06:29:49+00:00",
+ "generated_at": "2026-09-13T05:10:10+00:00",
  "stats": {
-  "species": 280,
-  "photos": 287,
-  "locations": 54,
+  "species": 281,
+  "photos": 293,
+  "locations": 55,
   "families": 64
  },
  "locations": {
@@ -53,6 +53,12 @@
    "lat": 42.3601,
    "lon": -71.0589,
    "display": "Boston, MA",
+   "approximate": false
+  },
+  "CaseyForebay": {
+   "lat": 37.4346,
+   "lon": -122.0977,
+   "display": "Casey Forebay, Mountain View, CA",
    "approximate": false
   },
   "CoyoteHillsRegionalPark": {
@@ -599,8 +605,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-05",
-     "location": "SonnyBoonMemorialTrail",
+     "date": "2026-09-11",
+     "location": "CaseyForebay",
      "file": "norsho-0.jpg"
     }
    ]
@@ -1173,6 +1179,23 @@
    ]
   },
   {
+   "en": "Sora",
+   "zh": "黑脸田鸡",
+   "code": "sora",
+   "sciName": "Porzana carolina",
+   "family": "Rails, Gallinules, and Coots",
+   "order": "Gruiformes",
+   "taxonOrder": 5455.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-11",
+     "location": "CaseyForebay",
+     "file": "sora-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Eurasian Moorhen",
    "zh": "黑水鸡",
    "code": "commoo3",
@@ -1543,6 +1566,12 @@
      "date": "2026-08-06",
      "location": "CoyoteHillsRegionalPark",
      "file": "lesyel-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "lesyel-1.jpg"
     }
    ]
   },
@@ -2801,6 +2830,12 @@
      "date": "2026-08-17",
      "location": "LakeMerced",
      "file": "coohaw-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "coohaw-1.jpg"
     }
    ]
   },
@@ -2818,6 +2853,18 @@
      "date": "2026-05-17",
      "location": "CoyoteHillsRegionalPark",
      "file": "norhar2-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "norhar2-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "norhar2-2.jpg"
     }
    ]
   },
@@ -3227,6 +3274,12 @@
      "date": "2026-05-17",
      "location": "CoyoteHillsRegionalPark",
      "file": "saypho-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
+     "file": "saypho-1.jpg"
     }
    ]
   },
@@ -4466,8 +4519,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-07",
-     "location": "BolsaChicaEcologicalReserve",
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
      "file": "savspa-0.jpg"
     }
    ]
