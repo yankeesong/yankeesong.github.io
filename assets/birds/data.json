@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-13T05:10:10+00:00",
+ "generated_at": "2026-10-01T22:24:07+00:00",
  "stats": {
-  "species": 281,
-  "photos": 293,
-  "locations": 55,
-  "families": 64
+  "species": 300,
+  "photos": 314,
+  "locations": 61,
+  "families": 66
  },
  "locations": {
   "AdobeCreek": {
@@ -55,10 +55,22 @@
    "display": "Boston, MA",
    "approximate": false
   },
+  "CandlestickPointSRA": {
+   "lat": 37.7172,
+   "lon": -122.3804,
+   "display": "Candlestick Point SRA, San Francisco, CA",
+   "approximate": true
+  },
   "CaseyForebay": {
    "lat": 37.4346,
    "lon": -122.0977,
    "display": "Casey Forebay, Mountain View, CA",
+   "approximate": false
+  },
+  "CoronaHeightsPark": {
+   "lat": 37.7648,
+   "lon": -122.4393,
+   "display": "Corona Heights Park, San Francisco, CA",
    "approximate": false
   },
   "CoyoteHillsRegionalPark": {
@@ -143,6 +155,12 @@
    "lat": 48.6175,
    "lon": -113.7609,
    "display": "Glacier NP, MT",
+   "approximate": false
+  },
+  "GoldenGateParkNorthLake": {
+   "lat": 37.77002,
+   "lon": -122.50288,
+   "display": "Golden Gate Park North Lake, San Francisco, CA",
    "approximate": false
   },
   "GrandTetonNP": {
@@ -253,11 +271,23 @@
    "display": "Pasadena, CA",
    "approximate": false
   },
+  "PenitenciaCreekTrail": {
+   "lat": 37.393,
+   "lon": -121.838,
+   "display": "Penitencia Creek Trail (Noble Ave / perc ponds), San Jose, CA",
+   "approximate": false
+  },
   "PillarPointHarbor": {
    "lat": 37.5012,
    "lon": -122.4748,
    "display": "Pillar Point Harbor, Half Moon Bay, CA",
    "approximate": false
+  },
+  "PillarPointWestShorelineTrail": {
+   "lat": 37.4971,
+   "lon": -122.4955,
+   "display": "Pillar Point West Shoreline Trail, Half Moon Bay, CA",
+   "approximate": true
   },
   "PinnaclesNP": {
    "lat": 36.4863,
@@ -295,6 +325,12 @@
    "display": "Sequoia NP, CA",
    "approximate": false
   },
+  "SierraVistaOpenSpacePreserve": {
+   "lat": 37.3985,
+   "lon": -121.7816,
+   "display": "Sierra Vista Open Space Preserve, San Jose, CA",
+   "approximate": false
+  },
   "SonnyBoonMemorialTrail": {
    "lat": 48.0883,
    "lon": -114.2294,
@@ -305,6 +341,12 @@
    "lat": 31.2989,
    "lon": 120.5853,
    "display": "Suzhou, Jiangsu, CN",
+   "approximate": false
+  },
+  "VeniceBeachHalfMoonBay": {
+   "lat": 37.4795,
+   "lon": -122.451,
+   "display": "Venice Beach, Half Moon Bay, CA",
    "approximate": false
   },
   "WindyHillOSP": {
@@ -323,12 +365,6 @@
    "lat": 28.9536,
    "lon": 90.6647,
    "display": "Yamdrok Lake, Tibet, CN",
-   "approximate": false
-  },
-  "YosemiteNP": {
-   "lat": 37.8651,
-   "lon": -119.5383,
-   "display": "Yosemite NP, CA",
    "approximate": false
   },
   "ZionNP": {
@@ -765,6 +801,29 @@
    ]
   },
   {
+   "en": "Ring-necked Duck",
+   "zh": "环颈潜鸭",
+   "code": "rinduc",
+   "sciName": "Aythya collaris",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 673.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-19",
+     "location": "GoldenGateParkNorthLake",
+     "file": "rinduc-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-28",
+     "location": "GoldenGateParkNorthLake",
+     "file": "rinduc-1.jpg"
+    }
+   ]
+  },
+  {
    "en": "Harlequin Duck",
    "zh": "丑鸭",
    "code": "harduc",
@@ -1056,6 +1115,23 @@
      "date": "2026-05-30",
      "location": "GreatMeadowsNWRConcordUnit",
      "file": "chiswi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-throated Swift",
+   "zh": "白喉雨燕",
+   "code": "whtswi",
+   "sciName": "Aeronautes saxatalis",
+   "family": "Swifts",
+   "order": "Apodiformes",
+   "taxonOrder": 4158.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-01",
+     "location": "SierraVistaOpenSpacePreserve",
+     "file": "whtswi-0.jpg"
     }
    ]
   },
@@ -1553,6 +1629,23 @@
    ]
   },
   {
+   "en": "Wandering Tattler",
+   "zh": "漂鹬",
+   "code": "wantat1",
+   "sciName": "Tringa incana",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6134.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-20",
+     "location": "PillarPointWestShorelineTrail",
+     "file": "wantat1-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Lesser Yellowlegs",
    "zh": "小黄脚鹬",
    "code": "lesyel",
@@ -1712,6 +1805,23 @@
    ]
   },
   {
+   "en": "Baird's Sandpiper",
+   "zh": "黑腰滨鹬",
+   "code": "baisan",
+   "sciName": "Calidris bairdii",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6217.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-20",
+     "location": "VeniceBeachHalfMoonBay",
+     "file": "baisan-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Least Sandpiper",
    "zh": "美洲小滨鹬",
    "code": "leasan",
@@ -1725,6 +1835,23 @@
      "date": "2026-08-15",
      "location": "RodeoLagoon",
      "file": "leasan-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Pectoral Sandpiper",
+   "zh": "斑胸滨鹬",
+   "code": "pecsan",
+   "sciName": "Calidris melanotos",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6227.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-20",
+     "location": "VeniceBeachHalfMoonBay",
+     "file": "pecsan-0.jpg"
     }
    ]
   },
@@ -1895,6 +2022,23 @@
      "date": "2026-08-08",
      "location": "FarallonIslands",
      "file": "xanmur2-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sabine's Gull",
+   "zh": "叉尾鸥",
+   "code": "sabgul",
+   "sciName": "Xema sabini",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6455.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-30",
+     "location": "PillarPointWestShorelineTrail",
+     "file": "sabgul-0.jpg"
     }
    ]
   },
@@ -3040,6 +3184,23 @@
    ]
   },
   {
+   "en": "Nuttall's Woodpecker",
+   "zh": "加州啄木鸟",
+   "code": "nutwoo",
+   "sciName": "Dryobates nuttallii",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11410.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-18",
+     "location": "LakeMerced",
+     "file": "nutwoo-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Hairy Woodpecker",
    "zh": "长嘴啄木鸟",
    "code": "haiwoo",
@@ -3050,8 +3211,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2018-11-25",
-     "location": "YosemiteNP",
+     "date": "2026-09-18",
+     "location": "CoronaHeightsPark",
      "file": "haiwoo-0.jpg"
     }
    ]
@@ -3091,6 +3252,23 @@
    ]
   },
   {
+   "en": "American Kestrel",
+   "zh": "美洲隼",
+   "code": "amekes",
+   "sciName": "Falco sparverius",
+   "family": "Falcons and Caracaras",
+   "order": "Falconiformes",
+   "taxonOrder": 12028.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-30",
+     "location": "PillarPointWestShorelineTrail",
+     "file": "amekes-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Peregrine Falcon",
    "zh": "游隼",
    "code": "perfal",
@@ -3104,6 +3282,23 @@
      "date": "2026-06-28",
      "location": "DevilsSlideTrail",
      "file": "perfal-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-masked Parakeet",
+   "zh": "红头鹦哥",
+   "code": "rempar",
+   "sciName": "Psittacara erythrogenys",
+   "family": "New World and African Parrots",
+   "order": "Psittaciformes",
+   "taxonOrder": 13203.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-18",
+     "location": "CoronaHeightsPark",
+     "file": "rempar-0.jpg"
     }
    ]
   },
@@ -3271,15 +3466,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-17",
-     "location": "CoyoteHillsRegionalPark",
+     "date": "2026-09-18",
+     "location": "CoronaHeightsPark",
      "file": "saypho-0.jpg"
-    },
-    {
-     "n": 1,
-     "date": "2026-09-12",
-     "location": "CoyoteHillsRegionalPark",
-     "file": "saypho-1.jpg"
     }
    ]
   },
@@ -3387,7 +3576,7 @@
   },
   {
    "en": "Eastern Warbling Vireo",
-   "zh": "歌莺雀",
+   "zh": "东歌莺雀",
    "code": "eawvir1",
    "sciName": "Vireo gilvus",
    "family": "Vireos, Shrike-Babblers, and Erpornis",
@@ -3399,6 +3588,23 @@
      "date": "2026-05-25",
      "location": "MontrosePoint",
      "file": "eawvir1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Warbling Vireo",
+   "zh": "西歌莺雀",
+   "code": "wewvir2",
+   "sciName": "Vireo swainsoni",
+   "family": "Vireos, Shrike-Babblers, and Erpornis",
+   "order": "Passeriformes",
+   "taxonOrder": 19247.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-28",
+     "location": "GoldenGateParkNorthLake",
+     "file": "wewvir2-0.jpg"
     }
    ]
   },
@@ -3637,6 +3843,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "verdin-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Horned Lark",
+   "zh": "角百灵",
+   "code": "horlar",
+   "sciName": "Eremophila alpestris",
+   "family": "Larks",
+   "order": "Passeriformes",
+   "taxonOrder": 22710.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-01",
+     "location": "SierraVistaOpenSpacePreserve",
+     "file": "horlar-0.jpg"
     }
    ]
   },
@@ -3944,6 +4167,12 @@
      "date": "2026-06-19",
      "location": "WindyHillOSP",
      "file": "brncre-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-19",
+     "location": "GoldenGateParkNorthLake",
+     "file": "brncre-1.jpg"
     }
    ]
   },
@@ -3978,6 +4207,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "bktgna-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Rock Wren",
+   "zh": "岩鹪鹩",
+   "code": "rocwre",
+   "sciName": "Salpinctes obsoletus",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27150.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-01",
+     "location": "SierraVistaOpenSpacePreserve",
+     "file": "rocwre-0.jpg"
     }
    ]
   },
@@ -4322,6 +4568,23 @@
    ]
   },
   {
+   "en": "Evening Grosbeak",
+   "zh": "黄昏锡嘴雀",
+   "code": "evegro",
+   "sciName": "Hesperiphona vespertina",
+   "family": "Finches, Euphonias, and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 32085.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-27",
+     "location": "PenitenciaCreekTrail",
+     "file": "evegro-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "House Finch",
    "zh": "家朱雀",
    "code": "houfin",
@@ -4441,6 +4704,23 @@
    ]
   },
   {
+   "en": "Lark Bunting",
+   "zh": "白斑黑鹀",
+   "code": "larbun",
+   "sciName": "Calamospiza melanocorys",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33032.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-20",
+     "location": "CandlestickPointSRA",
+     "file": "larbun-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Fox Sparrow",
    "zh": "狐色雀鹀",
    "code": "foxspa",
@@ -4488,6 +4768,23 @@
      "date": "2026-06-01",
      "location": "AnoNuevoStatePark",
      "file": "whcspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Golden-crowned Sparrow",
+   "zh": "金冠带鹀",
+   "code": "gocspa",
+   "sciName": "Zonotrichia atricapilla",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33196.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-30",
+     "location": "PillarPointWestShorelineTrail",
+     "file": "gocspa-0.jpg"
     }
    ]
   },
@@ -4594,6 +4891,23 @@
    ]
   },
   {
+   "en": "Rufous-crowned Sparrow",
+   "zh": "棕冠猛雀鹀",
+   "code": "rucspa",
+   "sciName": "Aimophila ruficeps",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33371.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-01",
+     "location": "SierraVistaOpenSpacePreserve",
+     "file": "rucspa-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Green-tailed Towhee",
    "zh": "绿尾唧鹀",
    "code": "gnttow",
@@ -4658,6 +4972,23 @@
      "date": "2026-07-05",
      "location": "SonnyBoonMemorialTrail",
      "file": "yehbla-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Western Meadowlark",
+   "zh": "西草地鹨",
+   "code": "wesmea",
+   "sciName": "Sturnella neglecta",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 33565.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-01",
+     "location": "SierraVistaOpenSpacePreserve",
+     "file": "wesmea-0.jpg"
     }
    ]
   },
@@ -5053,6 +5384,29 @@
    ]
   },
   {
+   "en": "Townsend's Warbler",
+   "zh": "黄眉林莺",
+   "code": "towwar",
+   "sciName": "Setophaga townsendi",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34206.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-18",
+     "location": "CoronaHeightsPark",
+     "file": "towwar-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-09-19",
+     "location": "GoldenGateParkNorthLake",
+     "file": "towwar-1.jpg"
+    }
+   ]
+  },
+  {
    "en": "Canada Warbler",
    "zh": "加拿大威森莺",
    "code": "canwar",
@@ -5185,6 +5539,23 @@
      "date": "2026-05-22",
      "location": "JosephDGrantCountyPark",
      "file": "lazbun-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Dickcissel",
+   "zh": "美洲雀",
+   "code": "dickci",
+   "sciName": "Spiza americana",
+   "family": "Cardinals and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34627.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-09-20",
+     "location": "CandlestickPointSRA",
+     "file": "dickci-0.jpg"
     }
    ]
   }
