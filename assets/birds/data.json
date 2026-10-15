@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-13T04:51:22+00:00",
+ "generated_at": "2026-10-15T07:38:00+00:00",
  "stats": {
-  "species": 332,
-  "photos": 349,
-  "locations": 68,
+  "species": 333,
+  "photos": 350,
+  "locations": 69,
   "families": 67
  },
  "locations": {
@@ -409,6 +409,12 @@
    "display": "Yamdrok Lake, Tibet, CN",
    "approximate": false
   },
+  "YosemiteSloughRestorationArea": {
+   "lat": 37.724,
+   "lon": -122.3826,
+   "display": "Yosemite Slough, Candlestick Point SRA, San Francisco, CA",
+   "approximate": false
+  },
   "ZionNP": {
    "lat": 37.2982,
    "lon": -113.0263,
@@ -496,8 +502,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-10",
-     "location": "Henderson",
+     "date": "2026-10-14",
+     "location": "LakeMerced",
      "file": "gwfgoo-0.jpg"
     }
    ]
@@ -1603,6 +1609,23 @@
    ]
   },
   {
+   "en": "Common Ringed Plover",
+   "zh": "剑鸻",
+   "code": "corplo",
+   "sciName": "Charadrius hiaticula",
+   "family": "Plovers and Lapwings",
+   "order": "Charadriiformes",
+   "taxonOrder": 5831.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-14",
+     "location": "YosemiteSloughRestorationArea",
+     "file": "corplo-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Semipalmated Plover",
    "zh": "半蹼鸻",
    "code": "semplo",
@@ -2588,8 +2611,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-10",
-     "location": "Henderson",
+     "date": "2026-10-14",
+     "location": "LakeMerced",
      "file": "eargre-0.jpg"
     }
    ]
