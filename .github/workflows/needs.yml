@@ -1,0 +1,42 @@
+name: Bird needs snapshot
+
+# Refreshes the data behind /birds/needs/: eBird reports of species not yet
+# photographed. Each run re-pulls the last 3 days and merges into the previous
+# snapshot (see .github/scripts/needs.py), so the page never calls eBird itself.
+
+on:
+  schedule:
+    # 5am, 9am, 1pm, 5pm Pacific daylight time (an hour earlier in winter)
+    - cron: "0 12,16,20,0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bird-needs
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Previous snapshot
+        run: |
+          git fetch --depth=1 origin data || true
+          git show origin/data:needs.json > prev.json 2>/dev/null || : > prev.json
+          echo "previous snapshot: $(wc -c < prev.json) bytes"
+      - name: Pull from eBird 🐦
+        env:
+          EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+        run: python3 .github/scripts/needs.py --prev prev.json --out out/needs.json
+      - name: Publish to the data branch 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: data
+          folder: out
+          # Only the latest snapshot matters; don't accumulate a commit per run.
+          single-commit: true
+          commit-message: "bird needs snapshot"

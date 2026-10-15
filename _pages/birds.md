@@ -176,7 +176,7 @@ _styles: >
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
 <div id="birds-app">
-  <div class="birds-stats" id="birds-stats">loading…</div>
+  <div class="birds-stats"><span id="birds-stats">loading…</span> · <a href="{{ '/birds/needs/' | relative_url }}">birds I still need</a></div>
 
   <div class="birds-controls">
     <div class="birds-toggle">
