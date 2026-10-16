@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T07:38:00+00:00",
+ "generated_at": "2026-10-16T04:57:52+00:00",
  "stats": {
-  "species": 333,
-  "photos": 350,
+  "species": 334,
+  "photos": 351,
   "locations": 69,
   "families": 67
  },
@@ -936,6 +936,23 @@
      "date": "2026-09-28",
      "location": "GoldenGateParkNorthLake",
      "file": "rinduc-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Greater Scaup",
+   "zh": "斑背潜鸭",
+   "code": "gresca",
+   "sciName": "Aythya marila",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 694.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-15",
+     "location": "YosemiteSloughRestorationArea",
+     "file": "gresca-0.jpg"
     }
    ]
   },
