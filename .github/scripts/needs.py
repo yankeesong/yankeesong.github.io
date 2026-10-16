@@ -267,7 +267,7 @@ def main():
         try:
             ck = api_get(f"/product/checklist/view/{sub}", key)
         except urllib.error.HTTPError as ex:
-            if ex.code == 404:  # checklist deleted: its rows are stale
+            if ex.code in (404, 410):  # checklist deleted: its rows are stale
                 for o in pending[sub]:
                     obs.pop((o["sp"], o["sub"], o["loc"]), None)
             else:
