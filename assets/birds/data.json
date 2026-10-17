@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T04:36:52+00:00",
+ "generated_at": "2026-10-17T18:31:12+00:00",
  "stats": {
-  "species": 335,
-  "photos": 352,
+  "species": 336,
+  "photos": 361,
   "locations": 70,
   "families": 67
  },
@@ -143,12 +143,6 @@
    "lat": 37.5585,
    "lon": -122.2711,
    "display": "Foster City, CA",
-   "approximate": false
-  },
-  "Fremont": {
-   "lat": 37.5485,
-   "lon": -121.9886,
-   "display": "Fremont, CA",
    "approximate": false
   },
   "GlaciersNP": {
@@ -354,6 +348,12 @@
    "lon": -119.5567,
    "display": "Scorpion Anchorage, Santa Cruz Island, CA",
    "approximate": true
+  },
+  "SealPointPark": {
+   "lat": 37.5739,
+   "lon": -122.3004,
+   "display": "Seal Point Park, San Mateo, CA",
+   "approximate": false
   },
   "SequoiaNP": {
    "lat": 36.4864,
@@ -902,6 +902,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "gnwtea-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canvasback",
+   "zh": "帆背潜鸭",
+   "code": "canvas",
+   "sciName": "Aythya valisineria",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 666.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "canvas-0.jpg"
     }
    ]
   },
@@ -3396,23 +3413,6 @@
    ]
   },
   {
-   "en": "Swainson's Hawk",
-   "zh": "斯氏鵟",
-   "code": "swahaw",
-   "sciName": "Buteo swainsoni",
-   "family": "Hawks, Eagles, and Kites",
-   "order": "Accipitriformes",
-   "taxonOrder": 8504.0,
-   "photos": [
-    {
-     "n": 0,
-     "date": "2026-01-19",
-     "location": "Fremont",
-     "file": "swahaw-0.jpg"
-    }
-   ]
-  },
-  {
    "en": "Red-tailed Hawk",
    "zh": "红尾鵟",
    "code": "rethaw",
@@ -3455,6 +3455,71 @@
      "date": "2026-06-30",
      "location": "AdobeCreek",
      "file": "grhowl-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Burrowing Owl",
+   "zh": "穴鸮",
+   "code": "burowl",
+   "sciName": "Athene cunicularia",
+   "family": "Owls",
+   "order": "Strigiformes",
+   "taxonOrder": 9133.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-2.jpg"
+    },
+    {
+     "n": 3,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-3.jpg"
+    },
+    {
+     "n": 4,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-4.jpg"
+    },
+    {
+     "n": 5,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-5.jpg"
+    },
+    {
+     "n": 6,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-6.jpg"
+    },
+    {
+     "n": 7,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-7.jpg"
+    },
+    {
+     "n": 8,
+     "date": "2026-10-17",
+     "location": "SealPointPark",
+     "file": "burowl-8.jpg"
     }
    ]
   },
