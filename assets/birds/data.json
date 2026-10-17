@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-16T04:57:52+00:00",
+ "generated_at": "2026-10-17T04:36:52+00:00",
  "stats": {
-  "species": 334,
-  "photos": 351,
-  "locations": 69,
+  "species": 335,
+  "photos": 352,
+  "locations": 70,
   "families": 67
  },
  "locations": {
@@ -281,6 +281,12 @@
    "lat": 41.8917,
    "lon": -87.6086,
    "display": "Navy Pier, Chicago, IL",
+   "approximate": false
+  },
+  "NobHillPond": {
+   "lat": 37.5219,
+   "lon": -122.2499,
+   "display": "Nob Hill Pond, Redwood Shores, Redwood City, CA",
    "approximate": false
   },
   "OceanBeachSF": {
@@ -777,6 +783,23 @@
      "date": "2026-05-21",
      "location": "AlvisoMarinaCountyPark",
      "file": "gadwal-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Eurasian Wigeon",
+   "zh": "赤颈鸭",
+   "code": "eurwig",
+   "sciName": "Mareca penelope",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 512.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-16",
+     "location": "NobHillPond",
+     "file": "eurwig-0.jpg"
     }
    ]
   },
