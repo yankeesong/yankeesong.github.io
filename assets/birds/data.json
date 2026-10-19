@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T18:31:12+00:00",
+ "generated_at": "2026-10-19T03:47:06+00:00",
  "stats": {
-  "species": 336,
-  "photos": 361,
+  "species": 335,
+  "photos": 360,
   "locations": 70,
   "families": 67
  },
@@ -5601,23 +5601,6 @@
      "date": "2026-05-07",
      "location": "DeathValleyNP",
      "file": "rewbla-0.jpg"
-    }
-   ]
-  },
-  {
-   "en": "Tricolored Blackbird",
-   "zh": "三色黑鹂",
-   "code": "tribla",
-   "sciName": "Agelaius tricolor",
-   "family": "Troupials and Allies",
-   "order": "Passeriformes",
-   "taxonOrder": 33807.0,
-   "photos": [
-    {
-     "n": 0,
-     "date": "2026-05-17",
-     "location": "CoyoteHillsRegionalPark",
-     "file": "tribla-0.jpg"
     }
    ]
   },
