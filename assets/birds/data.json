@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T03:47:06+00:00",
+ "generated_at": "2026-10-19T03:50:27+00:00",
  "stats": {
-  "species": 335,
-  "photos": 360,
+  "species": 334,
+  "photos": 359,
   "locations": 70,
   "families": 67
  },
@@ -460,23 +460,6 @@
      "date": "2025-11-28",
      "location": "BosqueDelApache",
      "file": "snogoo-0.jpg"
-    }
-   ]
-  },
-  {
-   "en": "Ross's Goose",
-   "zh": "细嘴雁",
-   "code": "rosgoo",
-   "sciName": "Anser rossii",
-   "family": "Ducks, Geese, and Waterfowl",
-   "order": "Anseriformes",
-   "taxonOrder": 272.0,
-   "photos": [
-    {
-     "n": 0,
-     "date": "2025-11-28",
-     "location": "BosqueDelApache",
-     "file": "rosgoo-0.jpg"
     }
    ]
   },
