@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-19T03:50:27+00:00",
+ "generated_at": "2026-10-20T03:32:02+00:00",
  "stats": {
-  "species": 334,
-  "photos": 359,
-  "locations": 70,
+  "species": 337,
+  "photos": 365,
+  "locations": 72,
   "families": 67
  },
  "locations": {
@@ -89,6 +89,12 @@
    "lat": 37.588,
    "lon": -122.3273,
    "display": "Coyote Point Recreation Area, San Mateo, CA",
+   "approximate": false
+  },
+  "CoyoteValleyOSP": {
+   "lat": 37.1686,
+   "lon": -121.7343,
+   "display": "Coyote Valley Open Space Preserve, Santa Clara County, CA",
    "approximate": false
   },
   "CrissyField": {
@@ -329,6 +335,12 @@
    "lat": 37.8307,
    "lon": -122.5318,
    "display": "Rodeo Lagoon, Marin Headlands, CA",
+   "approximate": false
+  },
+  "SCVWDHeadquarters": {
+   "lat": 37.2484,
+   "lon": -121.8735,
+   "display": "Santa Clara Valley Water District HQ, San Jose, CA",
    "approximate": false
   },
   "SaltPondA3W": {
@@ -3304,6 +3316,23 @@
    ]
   },
   {
+   "en": "Golden Eagle",
+   "zh": "金雕",
+   "code": "goleag",
+   "sciName": "Aquila chrysaetos",
+   "family": "Hawks, Eagles, and Kites",
+   "order": "Accipitriformes",
+   "taxonOrder": 8064.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-19",
+     "location": "CoyoteValleyOSP",
+     "file": "goleag-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Cooper's Hawk",
    "zh": "库氏鹰",
    "code": "coohaw",
@@ -3673,6 +3702,12 @@
      "date": "2026-09-30",
      "location": "PillarPointWestShorelineTrail",
      "file": "amekes-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-10-19",
+     "location": "CoyoteValleyOSP",
+     "file": "amekes-1.jpg"
     }
    ]
   },
@@ -3690,6 +3725,12 @@
      "date": "2026-10-11",
      "location": "LoxahatcheeNWR",
      "file": "merlin-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-10-19",
+     "location": "CoyoteValleyOSP",
+     "file": "merlin-1.jpg"
     }
    ]
   },
@@ -4221,6 +4262,23 @@
    ]
   },
   {
+   "en": "Yellow-billed Magpie",
+   "zh": "黄嘴喜鹊",
+   "code": "yebmag",
+   "sciName": "Pica nuttalli",
+   "family": "Crows, Jays, and Magpies",
+   "order": "Passeriformes",
+   "taxonOrder": 21477.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-19",
+     "location": "CoyoteValleyOSP",
+     "file": "yebmag-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "American Crow",
    "zh": "短嘴鸦",
    "code": "amecro",
@@ -4575,6 +4633,23 @@
      "date": "2026-06-07",
      "location": "BolsaChicaEcologicalReserve",
      "file": "swiwhe1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Ruby-crowned Kinglet",
+   "zh": "红冠戴菊",
+   "code": "ruckin",
+   "sciName": "Corthylio calendula",
+   "family": "Kinglets",
+   "order": "Passeriformes",
+   "taxonOrder": 26844.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-19",
+     "location": "SCVWDHeadquarters",
+     "file": "ruckin-0.jpg"
     }
    ]
   },
@@ -6044,6 +6119,12 @@
      "date": "2026-07-04",
      "location": "GlaciersNP",
      "file": "yerwar-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-10-19",
+     "location": "SCVWDHeadquarters",
+     "file": "yerwar-1.jpg"
     }
    ]
   },
