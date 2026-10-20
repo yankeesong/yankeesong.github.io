@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-20T03:32:02+00:00",
+ "generated_at": "2026-10-20T03:32:44+00:00",
  "stats": {
   "species": 337,
-  "photos": 365,
+  "photos": 364,
   "locations": 72,
   "families": 67
  },
@@ -6116,15 +6116,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-04",
-     "location": "GlaciersNP",
-     "file": "yerwar-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-10-19",
      "location": "SCVWDHeadquarters",
-     "file": "yerwar-1.jpg"
+     "file": "yerwar-0.jpg"
     }
    ]
   },
