@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-20T03:32:44+00:00",
+ "generated_at": "2026-10-25T04:06:10+00:00",
  "stats": {
-  "species": 337,
-  "photos": 364,
-  "locations": 72,
+  "species": 341,
+  "photos": 362,
+  "locations": 73,
   "families": 67
  },
  "locations": {
@@ -157,6 +157,18 @@
    "display": "Glacier NP, MT",
    "approximate": false
   },
+  "GoldenGateParkBlueHeronLake": {
+   "lat": 37.76899,
+   "lon": -122.47285,
+   "display": "Blue Heron Lake, Golden Gate Park, San Francisco, CA",
+   "approximate": false
+  },
+  "GoldenGateParkElkGlenLake": {
+   "lat": 37.76748,
+   "lon": -122.48204,
+   "display": "Elk Glen Lake, Golden Gate Park, San Francisco, CA",
+   "approximate": false
+  },
   "GoldenGateParkNorthLake": {
    "lat": 37.77002,
    "lon": -122.50288,
@@ -253,6 +265,12 @@
    "display": "London, UK",
    "approximate": false
   },
+  "LosGatosCreekCountyPark": {
+   "lat": 37.2642,
+   "lon": -121.95226,
+   "display": "Los Gatos Creek County Park, Campbell, CA",
+   "approximate": false
+  },
   "LoxahatcheeNWR": {
    "lat": 26.4992,
    "lon": -80.2124,
@@ -293,12 +311,6 @@
    "lat": 37.7562,
    "lon": -122.5102,
    "display": "Ocean Beach, San Francisco, CA",
-   "approximate": false
-  },
-  "PajaroDunesShorebirdsPond": {
-   "lat": 36.8733,
-   "lon": -121.8212,
-   "display": "Pajaro Dunes Shorebirds Pond, Santa Cruz County, CA",
    "approximate": false
   },
   "Pasadena": {
@@ -395,12 +407,6 @@
    "lat": 25.7279,
    "lon": -80.3235,
    "display": "Tropical Park, Miami, FL",
-   "approximate": false
-  },
-  "UlistacNaturalArea": {
-   "lat": 37.4061,
-   "lon": -121.9554,
-   "display": "Ulistac Natural Area, Santa Clara, CA",
    "approximate": false
   },
   "VeniceBeachHalfMoonBay": {
@@ -928,8 +934,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-10",
-     "location": "Henderson",
+     "date": "2026-10-24",
+     "location": "LosGatosCreekCountyPark",
      "file": "redhea-0.jpg"
     }
    ]
@@ -1028,6 +1034,40 @@
      "date": "2026-07-12",
      "location": "PillarPointHarbor",
      "file": "sursco-1.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-winged Scoter",
+   "zh": "白翅黑海番鸭",
+   "code": "whwsco2",
+   "sciName": "Melanitta deglandi",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 730.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-24",
+     "location": "VeniceBeachHalfMoonBay",
+     "file": "whwsco2-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bufflehead",
+   "zh": "白枕鹊鸭",
+   "code": "buffle",
+   "sciName": "Bucephala albeola",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 742.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-24",
+     "location": "LosGatosCreekCountyPark",
+     "file": "buffle-0.jpg"
     }
    ]
   },
@@ -1909,15 +1949,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-08-06",
-     "location": "CoyoteHillsRegionalPark",
-     "file": "lesyel-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-09-12",
      "location": "CoyoteHillsRegionalPark",
-     "file": "lesyel-1.jpg"
+     "file": "lesyel-0.jpg"
     }
    ]
   },
@@ -3366,7 +3400,7 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-17",
+     "date": "2026-09-12",
      "location": "CoyoteHillsRegionalPark",
      "file": "norhar2-0.jpg"
     },
@@ -3375,12 +3409,6 @@
      "date": "2026-09-12",
      "location": "CoyoteHillsRegionalPark",
      "file": "norhar2-1.jpg"
-    },
-    {
-     "n": 2,
-     "date": "2026-09-12",
-     "location": "CoyoteHillsRegionalPark",
-     "file": "norhar2-2.jpg"
     }
    ]
   },
@@ -3444,12 +3472,6 @@
      "date": "2026-08-15",
      "location": "CrissyField",
      "file": "rethaw-1.jpg"
-    },
-    {
-     "n": 2,
-     "date": "2026-08-30",
-     "location": "PajaroDunesShorebirdsPond",
-     "file": "rethaw-2.jpg"
     }
    ]
   },
@@ -3549,6 +3571,23 @@
      "date": "2026-09-04",
      "location": "DungenessNWR",
      "file": "belkin1-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Red-naped Sapsucker",
+   "zh": "红颈吸汁啄木鸟",
+   "code": "rensap",
+   "sciName": "Sphyrapicus nuchalis",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11127.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-24",
+     "location": "GoldenGateParkElkGlenLake",
+     "file": "rensap-0.jpg"
     }
    ]
   },
@@ -4647,8 +4686,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-10-19",
-     "location": "SCVWDHeadquarters",
+     "date": "2026-10-24",
+     "location": "GoldenGateParkBlueHeronLake",
      "file": "ruckin-0.jpg"
     }
    ]
@@ -4732,15 +4771,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-06-19",
-     "location": "WindyHillOSP",
-     "file": "brncre-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-09-19",
      "location": "GoldenGateParkNorthLake",
-     "file": "brncre-1.jpg"
+     "file": "brncre-0.jpg"
     }
    ]
   },
@@ -5034,6 +5067,23 @@
    ]
   },
   {
+   "en": "Varied Thrush",
+   "zh": "杂色鸫",
+   "code": "varthr",
+   "sciName": "Ixoreus naevius",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28249.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-24",
+     "location": "GoldenGateParkBlueHeronLake",
+     "file": "varthr-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Veery",
    "zh": "棕夜鸫",
    "code": "veery",
@@ -5095,8 +5145,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-10-03",
-     "location": "UlistacNaturalArea",
+     "date": "2026-10-24",
+     "location": "GoldenGateParkBlueHeronLake",
      "file": "herthr-0.jpg"
     }
    ]
@@ -6076,15 +6126,9 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-24",
-     "location": "MontrosePoint",
-     "file": "palwar-0.jpg"
-    },
-    {
-     "n": 1,
      "date": "2026-10-12",
      "location": "L31WCanal",
-     "file": "palwar-1.jpg"
+     "file": "palwar-0.jpg"
     }
    ]
   },
@@ -6170,12 +6214,6 @@
      "date": "2026-09-18",
      "location": "CoronaHeightsPark",
      "file": "towwar-0.jpg"
-    },
-    {
-     "n": 1,
-     "date": "2026-09-19",
-     "location": "GoldenGateParkNorthLake",
-     "file": "towwar-1.jpg"
     }
    ]
   },
