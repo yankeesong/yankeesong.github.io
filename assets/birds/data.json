@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-25T04:06:10+00:00",
+ "generated_at": "2026-10-28T04:22:27+00:00",
  "stats": {
-  "species": 341,
-  "photos": 362,
-  "locations": 73,
+  "species": 342,
+  "photos": 363,
+  "locations": 75,
   "families": 67
  },
  "locations": {
@@ -35,6 +35,12 @@
    "lat": 42.8569,
    "lon": 84.15,
    "display": "Bayanbulak Grassland, Xinjiang, CN",
+   "approximate": false
+  },
+  "BaylandsNaturePreserve": {
+   "lat": 37.4596,
+   "lon": -122.1063,
+   "display": "Palo Alto Baylands Nature Preserve, Palo Alto, CA",
    "approximate": false
   },
   "BelleIsleMarshReservation": {
@@ -173,6 +179,12 @@
    "lat": 37.77002,
    "lon": -122.50288,
    "display": "Golden Gate Park North Lake, San Francisco, CA",
+   "approximate": false
+  },
+  "GoldenGateParkStrawberryHill": {
+   "lat": 37.7685,
+   "lon": -122.4755,
+   "display": "Strawberry Hill, Golden Gate Park, San Francisco, CA",
    "approximate": false
   },
   "GrandTetonNP": {
@@ -2326,6 +2338,23 @@
      "date": "2026-09-30",
      "location": "PillarPointWestShorelineTrail",
      "file": "sabgul-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Bonaparte's Gull",
+   "zh": "博氏鸥",
+   "code": "bongul",
+   "sciName": "Chroicocephalus philadelphia",
+   "family": "Gulls, Terns, and Skimmers",
+   "order": "Charadriiformes",
+   "taxonOrder": 6462.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-25",
+     "location": "BaylandsNaturePreserve",
+     "file": "bongul-0.jpg"
     }
    ]
   },
@@ -6194,8 +6223,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-10-07",
-     "location": "MLKJrRegionalShoreline",
+     "date": "2026-10-25",
+     "location": "GoldenGateParkStrawberryHill",
      "file": "btywar-0.jpg"
     }
    ]
