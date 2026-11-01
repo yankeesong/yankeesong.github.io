@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T04:42:12+00:00",
+ "generated_at": "2026-11-01T03:45:22+00:00",
  "stats": {
-  "species": 343,
-  "photos": 364,
-  "locations": 75,
+  "species": 346,
+  "photos": 368,
+  "locations": 79,
   "families": 66
  },
  "locations": {
@@ -65,6 +65,12 @@
    "lat": 42.3601,
    "lon": -71.0589,
    "display": "Boston, MA",
+   "approximate": false
+  },
+  "BuenaVistaPark": {
+   "lat": 37.7684,
+   "lon": -122.4412,
+   "display": "Buena Vista Park, San Francisco, CA",
    "approximate": false
   },
   "CandlestickPointSRA": {
@@ -295,6 +301,12 @@
    "display": "Martin Luther King Jr. Regional Shoreline, Oakland, CA",
    "approximate": false
   },
+  "McCoppinSquare": {
+   "lat": 37.7436,
+   "lon": -122.48,
+   "display": "McCoppin Square, San Francisco, CA",
+   "approximate": false
+  },
   "Miami": {
    "lat": 25.7617,
    "lon": -80.1918,
@@ -305,6 +317,12 @@
    "lat": 41.9636,
    "lon": -87.6383,
    "display": "Montrose Point Bird Sanctuary, Chicago, IL",
+   "approximate": false
+  },
+  "MusselRockPark": {
+   "lat": 37.6734,
+   "lon": -122.493,
+   "display": "Mussel Rock Park, Daly City, CA",
    "approximate": false
   },
   "NavyPier": {
@@ -323,6 +341,12 @@
    "lat": 37.7562,
    "lon": -122.5102,
    "display": "Ocean Beach, San Francisco, CA",
+   "approximate": false
+  },
+  "PacificaPoliceDepartment": {
+   "lat": 37.6155,
+   "lon": -122.4848,
+   "display": "Pacifica Police Department, Pacifica, CA",
    "approximate": false
   },
   "Pasadena": {
@@ -1063,6 +1087,23 @@
      "date": "2026-10-24",
      "location": "VeniceBeachHalfMoonBay",
      "file": "whwsco2-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black Scoter",
+   "zh": "黑海番鸭",
+   "code": "blksco2",
+   "sciName": "Melanitta americana",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 757.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-31",
+     "location": "MusselRockPark",
+     "file": "blksco2-0.jpg"
     }
    ]
   },
@@ -4783,8 +4824,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-05",
-     "location": "EganSloughRd",
+     "date": "2026-10-31",
+     "location": "BuenaVistaPark",
      "file": "pygnut-0.jpg"
     }
    ]
@@ -5759,6 +5800,23 @@
    ]
   },
   {
+   "en": "Tricolored Blackbird",
+   "zh": "三色黑鹂",
+   "code": "tribla",
+   "sciName": "Agelaius tricolor",
+   "family": "Troupials and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 34046.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-31",
+     "location": "McCoppinSquare",
+     "file": "tribla-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Brown-headed Cowbird",
    "zh": "褐头牛鹂",
    "code": "bnhcow",
@@ -6209,6 +6267,12 @@
      "date": "2026-10-19",
      "location": "SCVWDHeadquarters",
      "file": "yerwar-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-10-30",
+     "location": "CaseyForebay",
+     "file": "yerwar-1.jpg"
     }
    ]
   },
@@ -6260,6 +6324,23 @@
      "date": "2026-09-18",
      "location": "CoronaHeightsPark",
      "file": "towwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Black-throated Green Warbler",
+   "zh": "黑喉绿林莺",
+   "code": "btnwar",
+   "sciName": "Setophaga virens",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34460.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-10-31",
+     "location": "PacificaPoliceDepartment",
+     "file": "btnwar-0.jpg"
     }
    ]
   },
