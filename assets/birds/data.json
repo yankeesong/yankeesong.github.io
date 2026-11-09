@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-01T03:45:22+00:00",
+ "generated_at": "2026-11-09T06:46:10+00:00",
  "stats": {
-  "species": 346,
-  "photos": 368,
-  "locations": 79,
-  "families": 66
+  "species": 351,
+  "photos": 375,
+  "locations": 83,
+  "families": 67
  },
  "locations": {
   "ADBarnesPark": {
@@ -181,6 +181,12 @@
    "display": "Elk Glen Lake, Golden Gate Park, San Francisco, CA",
    "approximate": false
   },
+  "GoldenGateParkHorseshoePit": {
+   "lat": 37.77361,
+   "lon": -122.45563,
+   "display": "Horseshoe Pit, Golden Gate Park, San Francisco, CA",
+   "approximate": false
+  },
   "GoldenGateParkNorthLake": {
    "lat": 37.77002,
    "lon": -122.50288,
@@ -222,6 +228,12 @@
    "lon": 120.1551,
    "display": "Hangzhou, Zhejiang, CN",
    "approximate": false
+  },
+  "HaywardRegionalShoreline": {
+   "lat": 37.6419,
+   "lon": -122.1517,
+   "display": "Hayward Regional Shoreline, Hayward, CA",
+   "approximate": true
   },
   "Henderson": {
    "lat": 36.0395,
@@ -433,6 +445,12 @@
    "display": "Sonny Boon Memorial Trail, MT",
    "approximate": false
   },
+  "SunnyvaleWPCP": {
+   "lat": 37.41984,
+   "lon": -122.01443,
+   "display": "Sunnyvale Water Pollution Control Plant, Sunnyvale, CA",
+   "approximate": true
+  },
   "Suzhou": {
    "lat": 31.2989,
    "lon": 120.5853,
@@ -443,6 +461,12 @@
    "lat": 25.7279,
    "lon": -80.3235,
    "display": "Tropical Park, Miami, FL",
+   "approximate": false
+  },
+  "TwinPeaksNaturalArea": {
+   "lat": 37.75398,
+   "lon": -122.44773,
+   "display": "Twin Peaks Natural Area, San Francisco, CA",
    "approximate": false
   },
   "VeniceBeachHalfMoonBay": {
@@ -1030,6 +1054,23 @@
      "date": "2026-10-15",
      "location": "YosemiteSloughRestorationArea",
      "file": "gresca-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lesser Scaup",
+   "zh": "小潜鸭",
+   "code": "lessca",
+   "sciName": "Aythya affinis",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 719.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-08",
+     "location": "SaltPondA3W",
+     "file": "lessca-0.jpg"
     }
    ]
   },
@@ -2401,7 +2442,7 @@
   },
   {
    "en": "Bonaparte's Gull",
-   "zh": "博氏鸥",
+   "zh": "伯氏鸥",
    "code": "bongul",
    "sciName": "Chroicocephalus philadelphia",
    "family": "Gulls, Terns, and Skimmers",
@@ -3433,6 +3474,12 @@
      "date": "2026-08-06",
      "location": "CoyoteHillsRegionalPark",
      "file": "whtkit-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-11-01",
+     "location": "HaywardRegionalShoreline",
+     "file": "whtkit-1.jpg"
     }
    ]
   },
@@ -3536,6 +3583,12 @@
      "date": "2026-08-15",
      "location": "CrissyField",
      "file": "reshaw-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-11-08",
+     "location": "SunnyvaleWPCP",
+     "file": "reshaw-2.jpg"
     }
    ]
   },
@@ -3581,7 +3634,7 @@
   },
   {
    "en": "Burrowing Owl",
-   "zh": "穴鸮",
+   "zh": "穴小鸮",
    "code": "burowl",
    "sciName": "Athene cunicularia",
    "family": "Owls",
@@ -3692,6 +3745,23 @@
      "date": "2026-05-05",
      "location": "SequoiaNP",
      "file": "rebsap-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lewis's Woodpecker",
+   "zh": "刘氏啄木鸟",
+   "code": "lewwoo",
+   "sciName": "Melanerpes lewis",
+   "family": "Woodpeckers",
+   "order": "Piciformes",
+   "taxonOrder": 11213.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-07",
+     "location": "GoldenGateParkHorseshoePit",
+     "file": "lewwoo-0.jpg"
     }
    ]
   },
@@ -4092,8 +4162,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-10-12",
-     "location": "L31WCanal",
+     "date": "2026-11-08",
+     "location": "SaltPondA3W",
      "file": "trokin-0.jpg"
     }
    ]
@@ -4967,6 +5037,23 @@
    ]
   },
   {
+   "en": "Western Marsh Wren",
+   "zh": "西长嘴沼泽鹪鹩",
+   "code": "marwre1",
+   "sciName": "Cistothorus paludicola",
+   "family": "Wrens",
+   "order": "Passeriformes",
+   "taxonOrder": 27485.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-08",
+     "location": "SaltPondA3W",
+     "file": "marwre1-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Eastern Marsh Wren",
    "zh": "长嘴沼泽鹪鹩",
    "code": "eamwre1",
@@ -5154,6 +5241,23 @@
    ]
   },
   {
+   "en": "Mountain Bluebird",
+   "zh": "山蓝鸲",
+   "code": "moublu",
+   "sciName": "Sialia currucoides",
+   "family": "Thrushes and Allies",
+   "order": "Passeriformes",
+   "taxonOrder": 28323.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-07",
+     "location": "TwinPeaksNaturalArea",
+     "file": "moublu-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Varied Thrush",
    "zh": "杂色鸫",
    "code": "varthr",
@@ -5317,8 +5421,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-03",
-     "location": "GlaciersNP",
+     "date": "2026-11-08",
+     "location": "HaywardRegionalShoreline",
      "file": "amepip-0.jpg"
     }
    ]
@@ -5422,6 +5526,23 @@
      "date": "2026-07-05",
      "location": "SonnyBoonMemorialTrail",
      "file": "amegfi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Lapland Longspur",
+   "zh": "铁爪鹀",
+   "code": "laplon",
+   "sciName": "Calcarius lapponicus",
+   "family": "Longspurs and Snow Buntings",
+   "order": "Passeriformes",
+   "taxonOrder": 32918.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-08",
+     "location": "HaywardRegionalShoreline",
+     "file": "laplon-0.jpg"
     }
    ]
   },
