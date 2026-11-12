@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-09T06:46:10+00:00",
+ "generated_at": "2026-11-12T06:19:30+00:00",
  "stats": {
-  "species": 351,
-  "photos": 375,
-  "locations": 83,
+  "species": 354,
+  "photos": 379,
+  "locations": 86,
   "families": 67
  },
  "locations": {
@@ -295,6 +295,12 @@
    "display": "London, UK",
    "approximate": false
   },
+  "LosCapitancillosPonds": {
+   "lat": 37.2392,
+   "lon": -121.8876,
+   "display": "Los Capitancillos Ponds, San Jose, Santa Clara County, CA",
+   "approximate": false
+  },
   "LosGatosCreekCountyPark": {
    "lat": 37.2642,
    "lon": -121.95226,
@@ -311,6 +317,12 @@
    "lat": 37.7413,
    "lon": -122.216,
    "display": "Martin Luther King Jr. Regional Shoreline, Oakland, CA",
+   "approximate": false
+  },
+  "McClellanGroundwaterRechargePonds": {
+   "lat": 37.315,
+   "lon": -122.05,
+   "display": "McClellan Ponds, Cupertino, Santa Clara County, CA",
    "approximate": false
   },
   "McCoppinSquare": {
@@ -431,6 +443,12 @@
    "lat": 36.4864,
    "lon": -118.5658,
    "display": "Sequoia NP, CA",
+   "approximate": false
+  },
+  "ShorelineLake": {
+   "lat": 37.4325,
+   "lon": -122.0916,
+   "display": "Shoreline Lake, Mountain View, Santa Clara County, CA",
    "approximate": false
   },
   "SierraVistaOpenSpacePreserve": {
@@ -1183,6 +1201,23 @@
    ]
   },
   {
+   "en": "Hooded Merganser",
+   "zh": "棕胁秋沙鸭",
+   "code": "hoomer",
+   "sciName": "Lophodytes cucullatus",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 775.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-11",
+     "location": "LosCapitancillosPonds",
+     "file": "hoomer-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Common Merganser",
    "zh": "普通秋沙鸭",
    "code": "commer",
@@ -1196,6 +1231,12 @@
      "date": "2026-07-02",
      "location": "GlaciersNP",
      "file": "commer-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-11-11",
+     "location": "McClellanGroundwaterRechargePonds",
+     "file": "commer-1.jpg"
     }
    ]
   },
@@ -3511,14 +3552,14 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-08-17",
-     "location": "LakeMerced",
+     "date": "2026-09-12",
+     "location": "CoyoteHillsRegionalPark",
      "file": "coohaw-0.jpg"
     },
     {
      "n": 1,
-     "date": "2026-09-12",
-     "location": "CoyoteHillsRegionalPark",
+     "date": "2026-11-11",
+     "location": "SaltPondA3W",
      "file": "coohaw-1.jpg"
     }
    ]
@@ -4131,6 +4172,23 @@
      "date": "2026-09-18",
      "location": "CoronaHeightsPark",
      "file": "saypho-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Vermilion Flycatcher",
+   "zh": "猩红霸鹟",
+   "code": "verfly",
+   "sciName": "Pyrocephalus rubinus",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17123.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-11",
+     "location": "SaltPondA3W",
+     "file": "verfly-0.jpg"
     }
    ]
   },
@@ -5047,7 +5105,7 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-11-08",
+     "date": "2026-11-11",
      "location": "SaltPondA3W",
      "file": "marwre1-0.jpg"
     }
@@ -5203,6 +5261,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "crithr-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Sage Thrasher",
+   "zh": "高山弯嘴嘲鸫",
+   "code": "sagthr",
+   "sciName": "Oreoscoptes montanus",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28247.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-11",
+     "location": "ShorelineLake",
+     "file": "sagthr-0.jpg"
     }
    ]
   },
