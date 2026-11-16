@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-12T06:19:30+00:00",
+ "generated_at": "2026-11-16T04:05:18+00:00",
  "stats": {
-  "species": 354,
-  "photos": 379,
-  "locations": 86,
+  "species": 355,
+  "photos": 381,
+  "locations": 87,
   "families": 67
  },
  "locations": {
@@ -239,6 +239,12 @@
    "lat": 36.0395,
    "lon": -114.9817,
    "display": "Henderson, NV",
+   "approximate": false
+  },
+  "HeronsHeadPark": {
+   "lat": 37.7389,
+   "lon": -122.3746,
+   "display": "Heron's Head Park, Bayview, San Francisco, CA",
    "approximate": false
   },
   "Huangshan": {
@@ -1089,6 +1095,12 @@
      "date": "2026-11-08",
      "location": "SaltPondA3W",
      "file": "lessca-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-11-15",
+     "location": "HeronsHeadPark",
+     "file": "lessca-1.jpg"
     }
    ]
   },
@@ -1194,8 +1206,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-05",
-     "location": "SonnyBoonMemorialTrail",
+     "date": "2026-11-14",
+     "location": "ShorelineLake",
      "file": "comgol-0.jpg"
     }
    ]
@@ -1795,8 +1807,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-08-08",
-     "location": "FarallonIslands",
+     "date": "2026-11-14",
+     "location": "ShorelineLake",
      "file": "blkoys-0.jpg"
     }
    ]
@@ -1985,6 +1997,23 @@
      "date": "2026-05-08",
      "location": "DeathValleyNP",
      "file": "lobdow-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Wilson's Snipe",
+   "zh": "美洲沙锥",
+   "code": "wilsni1",
+   "sciName": "Gallinago delicata",
+   "family": "Sandpipers and Allies",
+   "order": "Charadriiformes",
+   "taxonOrder": 6145.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-15",
+     "location": "HeronsHeadPark",
+     "file": "wilsni1-0.jpg"
     }
    ]
   },
