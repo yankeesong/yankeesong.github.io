@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-16T04:05:18+00:00",
+ "generated_at": "2026-11-22T05:58:57+00:00",
  "stats": {
-  "species": 355,
-  "photos": 381,
-  "locations": 87,
+  "species": 358,
+  "photos": 385,
+  "locations": 88,
   "families": 67
  },
  "locations": {
@@ -433,6 +433,12 @@
    "display": "Santa Clara Square, Santa Clara, CA",
    "approximate": false
   },
+  "SantiagoColumbusElGranada": {
+   "lat": 37.5001,
+   "lon": -122.4626,
+   "display": "Santiago Ave & Columbus St, El Granada, CA",
+   "approximate": false
+  },
   "ScorpionAnchorage": {
    "lat": 34.0489,
    "lon": -119.5567,
@@ -610,8 +616,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-10-05",
-     "location": "MLKJrRegionalShoreline",
+     "date": "2026-11-21",
+     "location": "PillarPointWestShorelineTrail",
      "file": "brant-0.jpg"
     }
    ]
@@ -2885,6 +2891,23 @@
    ]
   },
   {
+   "en": "Horned Grebe",
+   "zh": "角䴙䴘",
+   "code": "horgre",
+   "sciName": "Podiceps auritus",
+   "family": "Grebes",
+   "order": "Podicipediformes",
+   "taxonOrder": 6918.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-21",
+     "location": "CandlestickPointSRA",
+     "file": "horgre-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Eared Grebe",
    "zh": "黑颈䴙䴘",
    "code": "eargre",
@@ -2946,8 +2969,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-07-12",
-     "location": "PillarPointHarbor",
+     "date": "2026-11-21",
+     "location": "PillarPointWestShorelineTrail",
      "file": "retloo-0.jpg"
     }
    ]
@@ -3682,6 +3705,12 @@
      "date": "2026-08-15",
      "location": "CrissyField",
      "file": "rethaw-1.jpg"
+    },
+    {
+     "n": 2,
+     "date": "2026-11-21",
+     "location": "SantiagoColumbusElGranada",
+     "file": "rethaw-2.jpg"
     }
    ]
   },
@@ -5770,6 +5799,40 @@
    ]
   },
   {
+   "en": "Harris's Sparrow",
+   "zh": "赫氏带鹀",
+   "code": "harspa",
+   "sciName": "Zonotrichia querula",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33452.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-21",
+     "location": "CrissyField",
+     "file": "harspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-throated Sparrow",
+   "zh": "白喉带鹀",
+   "code": "whtspa",
+   "sciName": "Zonotrichia albicollis",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33455.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-21",
+     "location": "CoronaHeightsPark",
+     "file": "whtspa-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Vesper Sparrow",
    "zh": "栗肩雀鹀",
    "code": "vesspa",
@@ -5831,8 +5894,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-24",
-     "location": "MontrosePoint",
+     "date": "2026-11-21",
+     "location": "SantiagoColumbusElGranada",
      "file": "linspa-0.jpg"
     }
    ]
