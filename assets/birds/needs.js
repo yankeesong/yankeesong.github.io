@@ -3,13 +3,22 @@
    Reads a snapshot (needs.json on the `data` branch) written a few times a day
    by .github/workflows/needs.yml, so opening the page makes no eBird calls.
    "Refresh now" is the only live path: it re-pulls the last two days with the
-   viewer's own key, kept in this browser only. */
+   viewer's own key, kept in this browser only.
+
+   The same script drives trip pages (e.g. /birds/needs/mexico-city/): the
+   #needs-app element names the snapshot in data-snapshot, and a snapshot with a
+   `geo` block is a radius around a point rather than a set of counties. There
+   the county menu becomes a distance menu, and marker size is relative to the
+   busiest spot, since away from home nearly every checklist is full of needs. */
 
 (function () {
   "use strict";
 
   var BASE = document.currentScript.src.replace(/\/needs\.js.*$/, "");
-  var SNAPSHOT = "https://raw.githubusercontent.com/yankeesong/yankeesong.github.io/data/needs.json";
+  var APP = document.getElementById("needs-app");
+  var SNAPSHOT = "https://raw.githubusercontent.com/yankeesong/yankeesong.github.io/data/" + (APP.dataset.snapshot || "needs.json");
+  var RELATIVE = APP.dataset.scale === "relative";
+  var KM_PER_MI = 1.609344;
   var API = "https://api.ebird.org/v2";
   var KEY_STORE = "birds-needs:ebird-key";
   var PELAGIC_WEST_OF = -122.65;
@@ -50,10 +59,11 @@
     } catch (e) {}
   }
 
-  /* ---------- dates (eBird times are local Pacific) ---------- */
+  /* ---------- dates (eBird times are local to the area) ---------- */
 
   function ptDate(d) {
-    return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d || new Date());
+    var tz = (S.snap && S.snap.tz) || "America/Los_Angeles";
+    return new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(d || new Date());
   }
   function addDays(iso, n) {
     var d = new Date(iso + "T12:00:00Z");
@@ -101,7 +111,11 @@
     return S.obs.filter(function (o) {
       if (S.have[o.sp]) return false; // photographed after the snapshot was taken
       if ((o.dt || "").slice(0, 10) < f.since) return false;
-      if (f.county && loc(o.loc).county !== f.county) return false;
+      if (f.county) {
+        if (S.snap.geo) {
+          if (!(loc(o.loc).km <= +f.county * KM_PER_MI)) return false;
+        } else if (loc(o.loc).county !== f.county) return false;
+      }
       if (f.q && (sp(o.sp).en + " " + sp(o.sp).sci + " " + sp(o.sp).family).toLowerCase().indexOf(f.q) === -1) return false;
       return true;
     });
@@ -221,7 +235,8 @@
 
   function ensureMap() {
     if (S.map) return;
-    S.map = L.map("needs-map", { preferCanvas: true, scrollWheelZoom: false }).setView([37.55, -122.2], 9);
+    var g = S.snap.geo;
+    S.map = L.map("needs-map", { preferCanvas: true, scrollWheelZoom: false }).setView(g ? [g.lat, g.lng] : [37.55, -122.2], g ? 10 : 9);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 18,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · sightings: <a href="https://ebird.org">eBird</a>',
@@ -235,6 +250,10 @@
     var theme = cssVar("--global-theme-color", "#2c7be5");
     var rareColor = "#e8590c";
     var by = groupByLoc(rows);
+    var maxN = 1;
+    Object.keys(by).forEach(function (k) {
+      maxN = Math.max(maxN, Object.keys(by[k].sp).length);
+    });
     // Draw small counts first so the richest spots sit on top.
     Object.keys(by)
       .map(function (k) {
@@ -248,11 +267,12 @@
         if (L0.lat == null) return;
         var n = Object.keys(e.sp).length;
         var mk = L.circleMarker([L0.lat, L0.lng], {
-          radius: Math.min(22, 5 + Math.sqrt(n) * 3.2),
+          // Relative: the busiest spot in view is 16px, a lone species 4px.
+          radius: RELATIVE ? 4 + 12 * Math.sqrt((n - 1) / Math.max(1, maxN - 1)) : Math.min(22, 5 + Math.sqrt(n) * 3.2),
           color: "#fff",
           weight: 1.5,
           fillColor: e.rare ? rareColor : theme,
-          fillOpacity: 0.85,
+          fillOpacity: RELATIVE ? 0.7 : 0.85,
         });
         mk.bindTooltip(esc(L0.name) + " — " + n + " species", { direction: "top" });
         mk.bindPopup(
@@ -276,8 +296,16 @@
     if (o.ph) meta += " · " + o.ph + " photo" + (o.ph > 1 ? "s" : "");
     if (o.au) meta += " · audio";
     bits.push('<a href="https://ebird.org/checklist/' + esc(o.sub) + '" target="_blank" rel="noopener">' + esc(meta) + "</a>");
-    if (o.cm) bits.push('<div class="cm">' + esc(o.cm) + "</div>");
+    if (o.cmEn) bits.push('<div class="cm" title="' + esc(o.cm) + '">' + esc(o.cmEn) + ' <span class="tr">(translated)</span></div>');
+    else if (o.cm) bits.push('<div class="cm">' + esc(o.cm) + "</div>");
     return bits.join(" ");
+  }
+
+  // County at home; distance from the centre on a trip page.
+  function area(id) {
+    var L0 = loc(id);
+    if (S.snap.geo) return L0.km == null ? "" : (L0.km / KM_PER_MI).toFixed(1) + " mi from " + (S.snap.geo.center || "centre");
+    return L0.county || "";
   }
 
   function placeLinks(id) {
@@ -303,7 +331,7 @@
       '<div class="needs-pop"><div class="ttl">' +
       esc(L0.name) +
       '</div><div class="where">' +
-      esc(L0.county) +
+      esc(area(e.loc)) +
       " · " +
       placeLinks(e.loc) +
       "</div><ul>" +
@@ -352,7 +380,7 @@
             '<li><div class="ttl">' +
             esc(loc(id).name) +
             ' <span class="where">' +
-            esc(loc(id).county) +
+            esc(area(id)) +
             " · " +
             placeLinks(id) +
             "</span></div>" +
@@ -427,6 +455,7 @@
   }
 
   function isPelagic(o) {
+    if (S.snap.geo) return false;
     var name = (o.locName || "").toLowerCase();
     return (
       PELAGIC_NAMES.some(function (s) {
@@ -470,7 +499,16 @@
     btn.disabled = true;
     btn.textContent = "refreshing…";
     var regions = S.snap.regions;
-    var codes = Object.keys(regions);
+    var g = S.snap.geo;
+    var codes = g ? ["geo"] : Object.keys(regions);
+    var gq = g ? "lat=" + g.lat + "&lng=" + g.lng + "&dist=" + g.km : "";
+    function recentPath(rc, c) {
+      var tail = c ? "/" + c : "";
+      return g ? "/data/obs/geo/recent" + tail + "?" + gq + "&back=2&detail=full" : "/data/obs/" + rc + "/recent" + tail + "?back=2&detail=full";
+    }
+    var notablePath = g
+      ? "/data/obs/geo/recent/notable?" + gq + "&back=2&detail=full"
+      : "/data/obs/" + codes[0] + "/recent/notable?back=2&detail=full&r=" + codes.join(",");
     var present = {}; // species -> {region: 1}
     var covered = {};
     var fresh = [];
@@ -483,7 +521,7 @@
 
     Promise.all(
       codes.map(function (rc) {
-        return liveGet("/data/obs/" + rc + "/recent?back=2&detail=full", key).then(function (rows) {
+        return liveGet(recentPath(rc), key).then(function (rows) {
           return { rc: rc, rows: rows };
         });
       })
@@ -495,7 +533,7 @@
             all.push(o.speciesCode);
           });
         });
-        return liveGet("/data/obs/" + codes[0] + "/recent/notable?back=2&detail=full&r=" + codes.join(","), key).then(function (notable) {
+        return liveGet(notablePath, key).then(function (notable) {
           notable.forEach(function (o) {
             all.push(o.speciesCode);
           });
@@ -507,8 +545,8 @@
               });
             });
             notable.forEach(function (o) {
-              var rc = o.subnational2Code;
-              if (!regions[rc]) return;
+              var rc = g ? "geo" : o.subnational2Code;
+              if (!g && !regions[rc]) return;
               note(o, rc, true);
               var c = speciesOf(o.speciesCode);
               if (c) covered[c + "|" + rc] = 1;
@@ -522,7 +560,7 @@
           Object.keys(present[c]).forEach(function (rc) {
             if (covered[c + "|" + rc]) return;
             tasks.push(function () {
-              return liveGet("/data/obs/" + rc + "/recent/" + c + "?back=2&detail=full", key).then(function (rows) {
+              return liveGet(recentPath(rc, c), key).then(function (rows) {
                 rows.forEach(function (o) {
                   note(o, rc, false);
                 });
@@ -554,6 +592,12 @@
       });
   }
 
+  function kmBetween(lat1, lng1, lat2, lng2) {
+    var r = Math.PI / 180;
+    var a = Math.pow(Math.sin(((lat2 - lat1) * r) / 2), 2) + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.pow(Math.sin(((lng2 - lng1) * r) / 2), 2);
+    return Math.round(2 * 6371 * Math.asin(Math.sqrt(a)) * 10) / 10;
+  }
+
   function mergeLive(fresh) {
     var idx = {};
     S.obs.forEach(function (o) {
@@ -571,8 +615,16 @@
       rec.n = o.howMany;
       rec.valid = o.obsValid;
       rec.notable = rec.notable || f.notable;
-      if (!S.snap.locations[o.locId])
-        S.snap.locations[o.locId] = { name: o.locName, lat: o.lat, lng: o.lng, county: S.snap.regions[f.rc], private: !!o.locationPrivate };
+      if (!S.snap.locations[o.locId]) {
+        var nl = (S.snap.locations[o.locId] = {
+          name: o.locName,
+          lat: o.lat,
+          lng: o.lng,
+          county: S.snap.regions[f.rc] || null,
+          private: !!o.locationPrivate,
+        });
+        if (S.snap.geo && o.lat != null) nl.km = kmBetween(S.snap.geo.lat, S.snap.geo.lng, o.lat, o.lng);
+      }
       var s = S.snap.species[f.code];
       if (!s) {
         var t = S.snap.taxonomy[f.code] || {};
@@ -612,6 +664,17 @@
       $("needs-keyrow").hidden = true;
     });
 
+    if (S.snap.geo) {
+      var sel = $("needs-county");
+      sel.options[0].textContent = "within " + Math.round(S.snap.geo.km / KM_PER_MI) + " mi";
+      [2, 5, 10, 20].forEach(function (mi) {
+        var o = document.createElement("option");
+        o.value = mi;
+        o.textContent = "within " + mi + " mi";
+        sel.appendChild(o);
+      });
+      return;
+    }
     Object.keys(S.snap.regions)
       .map(function (k) {
         return S.snap.regions[k];

@@ -13,17 +13,27 @@ rarities after the fact. The overlap catches both, and a missed run heals itself
 "Needed" = any species whose eBird code is not in assets/birds/data.json, i.e.
 not yet in organized/. Publishing new photos updates it with no other step.
 
+Trip mode (--geo LAT,LNG,KM): the same thing for a radius around a point
+instead of the four counties, e.g. /birds/needs/mexico-city/. eBird's geo
+endpoints carry no county, so each location gets its distance from the centre
+instead. Keep the window short there (--keep-days 3), and --translate turns
+observers' write-ups into English.
+
 Usage:
   EBIRD_API_KEY=... python3 .github/scripts/needs.py --prev prev.json --out needs.json
+  EBIRD_API_KEY=... python3 .github/scripts/needs.py --prev prev-mx.json --out needs-mexico-city.json \
+      --geo 19.4262,-99.1867,48 --name "Mexico City" --center "the anthropology museum" --tz America/Mexico_City --keep-days 3 --translate
 """
 
 import argparse
 import html
 import json
+import math
 import os
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -93,6 +103,45 @@ def api_get(path, key, retries=4):
         time.sleep(2 ** attempt * 3)  # 3, 6, 12s
 
 
+def translate(text):
+    """(english, source language), or (None, None) if neither service answered.
+
+    Both services are keyless. Google's endpoint is better but rate-limits an IP
+    after a few calls, so MyMemory backs it up; MyMemory refuses English input
+    ("select two distinct languages"), which is itself the answer.
+    """
+    url = "https://translate.googleapis.com/translate_a/single?" + urllib.parse.urlencode(
+        {"client": "gtx", "sl": "auto", "tl": "en", "dt": "t", "q": text[:1500]}
+    )
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as r:
+            body = json.load(r)
+        time.sleep(0.5)
+        return "".join(seg[0] for seg in body[0] if seg and seg[0]).strip(), body[2]
+    except Exception:
+        pass
+    url = "https://api.mymemory.translated.net/get?" + urllib.parse.urlencode({"q": text[:480], "langpair": "autodetect|en"})
+    try:
+        with urllib.request.urlopen(url, timeout=20) as r:
+            body = json.load(r)
+        time.sleep(0.5)
+        status = int(body.get("responseStatus") or 0)
+        data = body.get("responseData") or {}
+        if status == 200 and data.get("translatedText"):
+            return html.unescape(data["translatedText"]).strip(), data.get("detectedLanguage") or "?"
+        if "DISTINCT" in str(data.get("translatedText", "")).upper():
+            return text, "en"
+    except Exception:
+        pass
+    return None, None
+
+
+def km_between(lat1, lng1, lat2, lng2):
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    a = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(lng2 - lng1) / 2) ** 2
+    return 2 * 6371 * math.asin(math.sqrt(a))
+
+
 def is_pelagic(o):
     name = (o.get("locName") or "").lower()
     if any(s in name for s in PELAGIC_NAMES):
@@ -137,7 +186,30 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--pull-days", type=int, default=None, help="override; default 3, or 30 on a first run")
     ap.add_argument("--key-file", help="read the eBird key from a file instead of $EBIRD_API_KEY")
+    ap.add_argument("--geo", help="trip mode: LAT,LNG,KM radius (eBird max 50 km) instead of the four counties")
+    ap.add_argument("--name", help="trip mode: place name shown on the page")
+    ap.add_argument("--center", help="trip mode: what distances are measured from")
+    ap.add_argument("--tz", default="America/Los_Angeles", help="local time zone of the area")
+    ap.add_argument("--keep-days", type=int, default=KEEP_DAYS)
+    ap.add_argument("--translate", action="store_true", help="translate write-ups into English")
     args = ap.parse_args()
+
+    tz = ZoneInfo(args.tz)
+    keep_days = args.keep_days
+    geo = None
+    if args.geo:
+        lat, lng, km = (float(x) for x in args.geo.split(","))
+        geo = {"lat": lat, "lng": lng, "km": km, "name": args.name, "center": args.center}
+        gq = f"lat={lat}&lng={lng}&dist={km:g}"
+    regions = {} if geo else REGIONS
+    # Units the species pull runs over: one per county, or the one circle.
+    units = ["geo"] if geo else list(REGIONS)
+
+    def recent_path(unit, sp=None, back=PULL_DAYS):
+        tail = f"/{sp}" if sp else ""
+        if geo:
+            return f"/data/obs/geo/recent{tail}?{gq}&back={back}&detail=full"
+        return f"/data/obs/{unit}/recent{tail}?back={back}&detail=full"
 
     key = (Path(args.key_file).read_text() if args.key_file else os.environ.get("EBIRD_API_KEY", "")).strip()
     if not key:
@@ -147,14 +219,14 @@ def main():
     if args.prev and Path(args.prev).is_file() and Path(args.prev).stat().st_size:
         prev = json.loads(Path(args.prev).read_text())
     first_run = not prev.get("obs")
-    pull = args.pull_days or (KEEP_DAYS if first_run else PULL_DAYS)
+    pull = args.pull_days or min(keep_days, KEEP_DAYS if first_run else PULL_DAYS)
 
     have = {s["code"] for s in json.loads((ROOT / "assets/birds/data.json").read_text())["species"]}
     tax = prev.get("taxonomy", {})
-    now = datetime.now(PT)
+    now = datetime.now(tz)
     today = now.date()
     pull_start = (today - timedelta(days=pull - 1)).isoformat()
-    keep_start = (today - timedelta(days=KEEP_DAYS - 1)).isoformat()
+    keep_start = (today - timedelta(days=keep_days - 1)).isoformat()
     errors = []
 
     # ---- 1. which species were reported, per county --------------------------
@@ -162,9 +234,9 @@ def main():
     # cheaply. One call per county (the multi-county form drops the county).
     present = {}  # species code -> set of region codes
     region_ok = 0
-    for rc in REGIONS:
+    for rc in units:
         try:
-            rows = api_get(f"/data/obs/{rc}/recent?back={pull}&detail=full", key)
+            rows = api_get(recent_path(rc, back=pull), key)
             region_ok += 1
         except Exception as ex:
             errors.append(f"recent {rc}: {ex}")
@@ -182,12 +254,15 @@ def main():
     notable_ok = True
     notable_covered = set()  # (species, region) fully covered by notable rows
     try:
-        rows = api_get(f"/data/obs/US-CA-075/recent/notable?back={pull}&detail=full&r={','.join(REGIONS)}", key)
+        if geo:
+            rows = api_get(f"/data/obs/geo/recent/notable?{gq}&back={pull}&detail=full", key)
+        else:
+            rows = api_get(f"/data/obs/US-CA-075/recent/notable?back={pull}&detail=full&r={','.join(REGIONS)}", key)
         load_taxonomy([o["speciesCode"] for o in rows], tax, key)
         for o in rows:
             sp = species_of(o["speciesCode"], tax)
-            rc = o.get("subnational2Code")
-            if sp and sp not in have and rc in REGIONS:
+            rc = "geo" if geo else o.get("subnational2Code")
+            if sp and sp not in have and rc in units:
                 fresh.append((sp, rc, o, True))
                 notable_covered.add((sp, rc))
                 present.setdefault(sp, set()).add(rc)
@@ -204,7 +279,7 @@ def main():
             if (sp, rc) in notable_covered:
                 continue
             try:
-                rows = api_get(f"/data/obs/{rc}/recent/{sp}?back={pull}&detail=full", key)
+                rows = api_get(recent_path(rc, sp, back=pull), key)
             except Exception as ex:
                 errors.append(f"detail {sp}/{rc}: {ex}")
                 continue
@@ -216,7 +291,7 @@ def main():
     obs = {(o["sp"], o["sub"], o["loc"]): o for o in prev.get("obs", [])}
     seen_notable = set()
     for sp, rc, o, notable in fresh:
-        if is_pelagic(o) or not o.get("subId"):
+        if (not geo and is_pelagic(o)) or not o.get("subId"):
             continue
         k = (sp, o["subId"], o["locId"])
         rec = obs.get(k) or {"sp": sp, "sub": o["subId"], "loc": o["locId"], "ck": False}
@@ -236,9 +311,11 @@ def main():
             "name": o.get("locName"),
             "lat": o.get("lat"),
             "lng": o.get("lng"),
-            "county": REGIONS[rc],
+            "county": None if geo else REGIONS[rc],
             "private": bool(o.get("locationPrivate")),
         }
+        if geo and o.get("lat") is not None:
+            locations[o["locId"]]["km"] = round(km_between(geo["lat"], geo["lng"], o["lat"], o["lng"]), 1)
     # A rarity that was in the window last run but is gone from the notable pull
     # now was rejected or deleted. Only safe to conclude if notable succeeded.
     if notable_ok:
@@ -294,6 +371,21 @@ def main():
                 au += m.get("A", 0)
             o.update({"ck": True, "cm": " / ".join(notes) or None, "ph": ph, "au": au})
 
+    # ---- 5b. write-ups into English (once each; `tr` persists) ---------------
+    if args.translate:
+        cache = {}
+        for o in obs.values():
+            if not o.get("cm") or o.get("tr"):
+                continue
+            if o["cm"] not in cache:
+                cache[o["cm"]] = translate(o["cm"])
+            en, lang = cache[o["cm"]]
+            if en is None:
+                continue  # endpoint failed: retry next run
+            o["tr"] = True
+            if lang != "en" and en.lower() != o["cm"].lower():
+                o["cmEn"], o["cmLang"] = en, lang
+
     # ---- 6. write -------------------------------------------------------------
     used_sp = {o["sp"] for o in obs.values()}
     used_loc = {o["loc"] for o in obs.values()}
@@ -312,8 +404,10 @@ def main():
     out = {
         "generated_at": now.isoformat(timespec="seconds"),
         "pulled_days": pull,
-        "keep_days": KEEP_DAYS,
-        "regions": REGIONS,
+        "keep_days": keep_days,
+        "tz": args.tz,
+        "regions": regions,
+        "geo": geo,
         "photographed": len(have),
         "calls": CALLS,
         "throttled": THROTTLED,
