@@ -4,10 +4,10 @@ name: Bird needs snapshot
 # photographed. Each run re-pulls the last 3 days and merges into the previous
 # snapshot (see .github/scripts/needs.py), so the page never calls eBird itself.
 #
-# Trip pages (e.g. /birds/needs/mexico-city/) get their own snapshot file from
-# this same job. They must: the publish step replaces the whole data branch, so
+# Trip pages (/birds/needs/mexico-city/, /birds/needs/merida/) get their own
+# snapshot file from this same job. They must: the publish step replaces the whole data branch, so
 # a second workflow publishing there would delete the other's file. To drop a
-# trip, delete its step and its page.
+# trip, delete its `trip` line and its page.
 
 on:
   schedule:
@@ -32,24 +32,27 @@ jobs:
         run: |
           git fetch --depth=1 origin data || true
           git show origin/data:needs.json > prev.json 2>/dev/null || : > prev.json
-          git show origin/data:needs-mexico-city.json > prev-mexico-city.json 2>/dev/null || : > prev-mexico-city.json
-          echo "previous snapshot: $(wc -c < prev.json) bytes; Mexico City: $(wc -c < prev-mexico-city.json) bytes"
+          echo "previous snapshot: $(wc -c < prev.json) bytes"
       - name: Pull from eBird 🐦
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
         run: python3 .github/scripts/needs.py --prev prev.json --out out/needs.json
-      - name: Pull from eBird, Mexico City trip 🇲🇽
-        # 30 miles (48 km) around the Museo Nacional de Antropología, last 3 days.
-        # A failure here must not sink the home snapshot, and must not delete the
-        # trip's last good one when the data branch is replaced.
+      - name: Pull from eBird, trips ✈️
+        # One line per trip page: 30 miles (48 km) around a point, last 3 days.
+        # A trip that fails must not sink the others or the home snapshot, and
+        # must not lose its last good file when the data branch is replaced.
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
         run: |
-          python3 .github/scripts/needs.py --prev prev-mexico-city.json --out out/needs-mexico-city.json \
-            --geo 19.4262,-99.1867,48 --name "Mexico City" --center "the anthropology museum" \
-            --tz America/Mexico_City --keep-days 3 --translate \
-          || { echo "::warning::Mexico City pull failed; keeping the previous snapshot"; \
-               [ -s prev-mexico-city.json ] && cp prev-mexico-city.json out/needs-mexico-city.json || true; }
+          trip() {  # slug  lat,lng,km  name  centre  tz
+            git show "origin/data:needs-$1.json" > "prev-$1.json" 2>/dev/null || : > "prev-$1.json"
+            python3 .github/scripts/needs.py --prev "prev-$1.json" --out "out/needs-$1.json" \
+              --geo "$2" --name "$3" --center "$4" --tz "$5" --keep-days 3 --translate \
+            || { echo "::warning::$3 pull failed; keeping the previous snapshot"; \
+                 [ -s "prev-$1.json" ] && cp "prev-$1.json" "out/needs-$1.json" || true; }
+          }
+          trip mexico-city 19.4262,-99.1867,48 "Mexico City" "the anthropology museum" America/Mexico_City
+          trip merida      20.9671,-89.6237,48 "Mérida"      "the Plaza Grande"        America/Merida
       - name: Publish to the data branch 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:

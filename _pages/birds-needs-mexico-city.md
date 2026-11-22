@@ -19,6 +19,7 @@ nav: false
   <div class="needs-updated">
     Within 30 miles of the Museo Nacional de Antropología · <span id="needs-updated"></span> ·
     <a href="{{ '/birds/needs/' | relative_url }}">Bay Area</a> ·
+    <a href="{{ '/birds/needs/merida/' | relative_url }}">Mérida</a> ·
     <a href="{{ '/birds/' | relative_url }}">photographed so far</a>
   </div>
 
