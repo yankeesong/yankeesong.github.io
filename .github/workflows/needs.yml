@@ -38,7 +38,7 @@ jobs:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
         run: python3 .github/scripts/needs.py --prev prev.json --out out/needs.json
       - name: Pull from eBird, trips ✈️
-        # One line per trip page: 30 miles (48 km) around a point, last 3 days.
+        # One line per trip page: 30 miles (48 km) around a point, last 7 days.
         # A trip that fails must not sink the others or the home snapshot, and
         # must not lose its last good file when the data branch is replaced.
         env:
@@ -47,7 +47,7 @@ jobs:
           trip() {  # slug  lat,lng,km  name  centre  tz
             git show "origin/data:needs-$1.json" > "prev-$1.json" 2>/dev/null || : > "prev-$1.json"
             python3 .github/scripts/needs.py --prev "prev-$1.json" --out "out/needs-$1.json" \
-              --geo "$2" --name "$3" --center "$4" --tz "$5" --keep-days 3 --translate \
+              --geo "$2" --name "$3" --center "$4" --tz "$5" --keep-days 7 --translate \
             || { echo "::warning::$3 pull failed; keeping the previous snapshot"; \
                  [ -s "prev-$1.json" ] && cp "prev-$1.json" "out/needs-$1.json" || true; }
           }

@@ -16,13 +16,13 @@ not yet in organized/. Publishing new photos updates it with no other step.
 Trip mode (--geo LAT,LNG,KM): the same thing for a radius around a point
 instead of the four counties, e.g. /birds/needs/mexico-city/. eBird's geo
 endpoints carry no county, so each location gets its distance from the centre
-instead. Keep the window short there (--keep-days 3), and --translate turns
+instead. Keep the window short there (--keep-days 7), and --translate turns
 observers' write-ups into English.
 
 Usage:
   EBIRD_API_KEY=... python3 .github/scripts/needs.py --prev prev.json --out needs.json
   EBIRD_API_KEY=... python3 .github/scripts/needs.py --prev prev-mx.json --out needs-mexico-city.json \
-      --geo 19.4262,-99.1867,48 --name "Mexico City" --center "the anthropology museum" --tz America/Mexico_City --keep-days 3 --translate
+      --geo 19.4262,-99.1867,48 --name "Mexico City" --center "the anthropology museum" --tz America/Mexico_City --keep-days 7 --translate
 """
 
 import argparse
@@ -219,7 +219,10 @@ def main():
     if args.prev and Path(args.prev).is_file() and Path(args.prev).stat().st_size:
         prev = json.loads(Path(args.prev).read_text())
     first_run = not prev.get("obs")
-    pull = args.pull_days or min(keep_days, KEEP_DAYS if first_run else PULL_DAYS)
+    # A longer window than last run's (e.g. a trip going 3 -> 7 days) has a gap
+    # the 3-day re-pull would never fill, so pull the whole window once.
+    widened = prev.get("keep_days", 0) < keep_days
+    pull = args.pull_days or min(keep_days, KEEP_DAYS if first_run or widened else PULL_DAYS)
 
     have = {s["code"] for s in json.loads((ROOT / "assets/birds/data.json").read_text())["species"]}
     tax = prev.get("taxonomy", {})

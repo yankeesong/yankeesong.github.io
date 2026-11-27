@@ -2,7 +2,7 @@
 layout: page
 permalink: /birds/needs/merida/
 title: birds I still need — Mérida
-description: eBird reports from the last three days within 30 miles of central Mérida, of species I have not photographed yet.
+description: eBird reports from the last seven days within 30 miles of central Mérida, of species I have not photographed yet.
 nav: false
 ---
 
@@ -27,7 +27,8 @@ nav: false
     <div class="needs-seg" id="needs-window" role="group" aria-label="Reported within">
       <button type="button" data-days="1" aria-pressed="false">today</button>
       <button type="button" data-days="2" aria-pressed="false">since yesterday</button>
-      <button type="button" data-days="3" aria-pressed="true">3 days</button>
+      <button type="button" data-days="3" aria-pressed="false">3 days</button>
+      <button type="button" data-days="7" aria-pressed="true">week</button>
     </div>
     <button type="button" class="needs-btn" id="needs-refresh" title="Pull the last two days live from eBird with your own key">refresh now</button>
   </div>
