@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-22T05:58:57+00:00",
+ "generated_at": "2026-11-28T03:14:04+00:00",
  "stats": {
-  "species": 358,
-  "photos": 385,
-  "locations": 88,
+  "species": 370,
+  "photos": 398,
+  "locations": 90,
   "families": 67
  },
  "locations": {
@@ -17,6 +17,12 @@
    "lat": 37.3835,
    "lon": -122.1256,
    "display": "Adobe Creek, Los Altos Hills, CA",
+   "approximate": false
+  },
+  "AlamedaOriente": {
+   "lat": 19.4332,
+   "lon": -99.0542,
+   "display": "Parque Alameda Oriente, Mexico City, MX",
    "approximate": false
   },
   "AlvisoMarinaCountyPark": {
@@ -377,6 +383,12 @@
    "lat": 37.6155,
    "lon": -122.4848,
    "display": "Pacifica Police Department, Pacifica, CA",
+   "approximate": false
+  },
+  "ParqueEcologicoXochimilco": {
+   "lat": 19.2937,
+   "lon": -99.0962,
+   "display": "Parque Ecológico de Xochimilco, Mexico City, MX",
    "approximate": false
   },
   "Pasadena": {
@@ -946,6 +958,23 @@
    ]
   },
   {
+   "en": "Mexican Duck",
+   "zh": "墨西哥鸭",
+   "code": "mexduc",
+   "sciName": "Anas diazi",
+   "family": "Ducks, Geese, and Waterfowl",
+   "order": "Anseriformes",
+   "taxonOrder": 578.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "mexduc-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "American Black Duck",
    "zh": "北美黑鸭",
    "code": "ambduc",
@@ -1429,6 +1458,40 @@
    ]
   },
   {
+   "en": "Inca Dove",
+   "zh": "印加地鸠",
+   "code": "incdov",
+   "sciName": "Columbina inca",
+   "family": "Pigeons and Doves",
+   "order": "Columbiformes",
+   "taxonOrder": 2266.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "incdov-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "White-winged Dove",
+   "zh": "白翅哀鸽",
+   "code": "whwdov",
+   "sciName": "Zenaida asiatica",
+   "family": "Pigeons and Doves",
+   "order": "Columbiformes",
+   "taxonOrder": 2415.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "whwdov-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Mourning Dove",
    "zh": "哀鸽",
    "code": "moudov",
@@ -1510,6 +1573,23 @@
      "date": "2026-05-30",
      "location": "GreatMeadowsNWRConcordUnit",
      "file": "chiswi-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Vaux's Swift",
+   "zh": "沃氏雨燕",
+   "code": "vauswi",
+   "sciName": "Chaetura vauxi",
+   "family": "Swifts",
+   "order": "Apodiformes",
+   "taxonOrder": 3932.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "vauswi-0.jpg"
     }
    ]
   },
@@ -1629,6 +1709,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "brthum-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Berylline Hummingbird",
+   "zh": "绿蜂鸟",
+   "code": "berhum",
+   "sciName": "Saucerottia beryllina",
+   "family": "Hummingbirds",
+   "order": "Apodiformes",
+   "taxonOrder": 5094.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "berhum-0.jpg"
     }
    ]
   },
@@ -4000,8 +4097,8 @@
     },
     {
      "n": 1,
-     "date": "2026-10-19",
-     "location": "CoyoteValleyOSP",
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
      "file": "amekes-1.jpg"
     }
    ]
@@ -4043,6 +4140,23 @@
      "date": "2026-06-28",
      "location": "DevilsSlideTrail",
      "file": "perfal-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Monk Parakeet",
+   "zh": "灰胸鹦哥",
+   "code": "monpar",
+   "sciName": "Myiopsitta monachus",
+   "family": "New World and African Parrots",
+   "order": "Psittaciformes",
+   "taxonOrder": 12902.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "monpar-0.jpg"
     }
    ]
   },
@@ -4183,6 +4297,40 @@
    ]
   },
   {
+   "en": "Hammond's Flycatcher",
+   "zh": "哈氏纹霸鹟",
+   "code": "hamfly",
+   "sciName": "Empidonax hammondii",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17058.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "hamfly-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Dusky Flycatcher",
+   "zh": "暗纹霸鹟",
+   "code": "dusfly",
+   "sciName": "Empidonax oberholseri",
+   "family": "Tyrant Flycatchers",
+   "order": "Passeriformes",
+   "taxonOrder": 17060.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "dusfly-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Western Flycatcher",
    "zh": "北美纹霸鹟",
    "code": "wesfly",
@@ -4247,6 +4395,12 @@
      "date": "2026-11-11",
      "location": "SaltPondA3W",
      "file": "verfly-0.jpg"
+    },
+    {
+     "n": 1,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "verfly-1.jpg"
     }
    ]
   },
@@ -5272,6 +5426,23 @@
    ]
   },
   {
+   "en": "Curve-billed Thrasher",
+   "zh": "弯嘴嘲鸫",
+   "code": "cubthr",
+   "sciName": "Toxostoma curvirostre",
+   "family": "Mockingbirds and Thrashers",
+   "order": "Passeriformes",
+   "taxonOrder": 28201.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "cubthr-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Brown Thrasher",
    "zh": "褐弯嘴嘲鸫",
    "code": "brnthr",
@@ -5714,6 +5885,23 @@
    ]
   },
   {
+   "en": "Lark Sparrow",
+   "zh": "云雀鹀",
+   "code": "larspa",
+   "sciName": "Chondestes grammacus",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33283.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "larspa-0.jpg"
+    }
+   ]
+  },
+  {
    "en": "Lark Bunting",
    "zh": "白斑黑鹀",
    "code": "larbun",
@@ -5914,6 +6102,23 @@
      "date": "2026-05-30",
      "location": "GreatMeadowsNWRConcordUnit",
      "file": "swaspa-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Canyon Towhee",
+   "zh": "棕喉唧鹀",
+   "code": "cantow",
+   "sciName": "Melozone fusca",
+   "family": "New World Sparrows",
+   "order": "Passeriformes",
+   "taxonOrder": 33579.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
+     "file": "cantow-0.jpg"
     }
    ]
   },
@@ -6268,8 +6473,8 @@
    "photos": [
     {
      "n": 0,
-     "date": "2026-05-24",
-     "location": "MontrosePoint",
+     "date": "2026-11-27",
+     "location": "ParqueEcologicoXochimilco",
      "file": "orcwar-0.jpg"
     }
    ]
@@ -6288,6 +6493,23 @@
      "date": "2026-05-10",
      "location": "Henderson",
      "file": "lucwar-0.jpg"
+    }
+   ]
+  },
+  {
+   "en": "Nashville Warbler",
+   "zh": "黄喉虫森莺",
+   "code": "naswar",
+   "sciName": "Leiothlypis ruficapilla",
+   "family": "New World Warblers",
+   "order": "Passeriformes",
+   "taxonOrder": 34220.0,
+   "photos": [
+    {
+     "n": 0,
+     "date": "2026-11-27",
+     "location": "AlamedaOriente",
+     "file": "naswar-0.jpg"
     }
    ]
   },
